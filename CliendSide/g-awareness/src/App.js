@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Link from './Component/Routes/Routes';
 function App() {
   return (
     <div className="App">
-     <h1>welcome to G_awareness government website</h1>
-     <h2>welcome to muneera's website</h2>
+        
+        <Link/>
     </div>
   );
 }
 
-export default App;
+export default Link;
