@@ -1,5 +1,6 @@
 import React from "react";
 import './footer.css';
+import { footerdata } from "../constant/contantfooter";
 
 function Footer(){
     return(
@@ -7,35 +8,19 @@ function Footer(){
              <div> <div className="box61"><span className="back1">back to top</span></div>
             <div className="box7">
                 <div className="aboutus">
-                    <div >
-                        <h4>About</h4>
-                        <p>Government information</p>
-                        <p>Poltical leader</p>
-                        <p>Government budjet</p>
-                        <p>police department</p>
-                    </div>
-                    <div className="foter">
-                        <h4>Government Plans</h4>
-                        <p>loans</p>
-                        <p>benefit plans for people</p>
-                        <p>hierarchy information about Government</p>
-                    </div>
-                    <div className="foter">
-                        <h4>Government office numbers</h4>
-                        <p>Help_line numbers</p>
-                        <p>agriculture</p>
-                        <p>indian culture</p>
-                        <p> indian cricket</p>
-                        <p>army</p>
 
-                    </div>
-                    <div className="foter">
-                        <h4>Government Jobs notifications</h4>
-                        <p>UPSC</p>
-                        <p>NEET1</p>
-                        <p>indian army jobs</p>
-                        <p>CBI jobs</p>
-                    </div>
+                    {
+                        footerdata.map((item,i)=>(
+                            <div key={i} className="foter">
+                                <h4>{item.title}</h4>
+                                {
+                                    item.SubText.map((data,index)=>
+                                        <p>{data}</p>
+                                    )
+                                }
+                            </div>
+                        ))
+                    }
 
                 </div>
 
@@ -48,7 +33,10 @@ function Footer(){
                         <img className="facebook" src="resources/facebook.webp" alt="image" />
                     </div>
                 </div>
-                <p className="this">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>
+                
+
+                <p></p>
+                {/* <p className="this">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>*/}
             </div>
         </div>
         </div>
