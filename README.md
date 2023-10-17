@@ -1,5 +1,6 @@
 # G_aware🥰
-
+<h2>About project</h2>
+<p>The project gives information about Government Hierarchy information about the political leader,  government plans, government helpline number, and  Tourist places.</p>
 <h2>Technologies Involved</h2>
 <ul>
   <li>HTML</li>
