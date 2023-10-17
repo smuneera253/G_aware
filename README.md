@@ -23,7 +23,7 @@
  :dart: Government Office number <br>
 
 
- <h2>My wesite looks like</h2>
+ <h2>My website looks like</h2>
 
  <img src="https://github.com/smuneera253/G_aware/blob/feat/GA-24-staticpages/Screenshot%20from%202023-10-18%2000-11-03.png"/>
  
