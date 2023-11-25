@@ -206,8 +206,12 @@ function Budget() {
 
 
   {/*card....*/}
+  <div>
+      <h1 className="budget_information"><u>More Information Of Budget</u></h1>
+  </div>
 
   <div className='body1'>
+    
   <div className="containerplans">
         <div className="cardplan">
           <div className="imageplan">

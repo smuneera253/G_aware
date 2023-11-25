@@ -526,7 +526,7 @@
   border: 1px solid black;
   flex-wrap: wrap;
   padding: 30px;
-  margin-top: 300px;
+  margin-top: 100px;
   background-color: #43345d;
   margin-left: 50px;
   min-height: 400px;
@@ -755,8 +755,11 @@
   opacity: 1;
   transition-delay: 0.2s;
 }
-
-/* jhgf */
+.budget_information{
+  margin-left: 700px;
+  margin-top:180px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
