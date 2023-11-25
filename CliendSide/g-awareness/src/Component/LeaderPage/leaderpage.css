@@ -1,9 +1,11 @@
+
 .MAIN{
     width: 100%;
     /* height: 550px; */
      border: 1px solid black; 
     margin-top: 10px;
     display: flex;
+    /* position: sticky; */
    
     
 /* cursor: url(''), auto; Replace with your custom cursor file */
@@ -13,7 +15,7 @@
 
   }
   .leader1{
-      height: 500px;
+      height: 550px;
       width: 350px;
        /* border: 1px solid black;  */
       margin-top: 30px;
@@ -23,6 +25,7 @@
       border-radius: 10px;
       border-left: 7px solid rgb(128, 4, 0);
       cursor: pointer;
+      /* position: fixed; */
   
   }
   
@@ -46,9 +49,24 @@
     font-size: 15px;
     margin-right: 30px;
     margin-top: 25px;
+    
+    
+   
   }
-  .CM:hover{
+  .PM1:hover{
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+  }
+  /* .CM:hover{
     color: blueviolet;
+  } */
+  .pmcolor:hover{
+    /* width: 250px;
+    height: 30px; */
+    background-color: rgba(163, 7, 163, 0.787);
+    color: rgb(212, 209, 209);
+
   }
   .MAIN2{
     width: 80%;
@@ -201,23 +219,29 @@
     margin-top: 15px;
   }
   .color:hover{
-    background-color: rgb(197, 3, 246);
-    color: white;
+    background-color: rgb(195, 2, 244);
+    color: rgb(255, 253, 253);
   }
   .btn{
     width: 80px;
     height: 40px;
     margin-top: 70px;
     margin-right: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
     /* background-color: rgb(1, 1, 1);
     color: white; */
     font-size: 15px;
     cursor: pointer;
+    /* transition: all 2s; */
   }
   .colorbtn:hover{
     background-color: rgb(1, 1, 1);
     color: white;
+    border-radius: 20px 0;
+    transition: all 1s;
+  }
+  .fixing{
+    margin-left: 30px;
   }
 
 
@@ -273,6 +297,7 @@
   box-shadow: 0 10px 16px rgba(27, 58, 184, 0.2);
   border-top-right-radius: 150px;
   border-bottom-left-radius: 150px;
+
   border-bottom: 7px solid rgb(34, 34, 79);
 }
 .shado:hover{
@@ -306,6 +331,8 @@
 .btnquite:hover{
   background-color: black;
   color: white;
+  transition: all 1s;
+  border-radius: 0 40px ;
 }
 .color1:hover{
   background-color: rgb(199, 249, 1);
@@ -322,4 +349,13 @@
 .cat{
   margin-left: 450px;
 
+}
+/* .phara{
+  position: fixed;
+  margin-top: 250px;
+} */
+.cusor{
+  width: 50px;
+  height: 50px;
+  margin-top: 380px;
 }

@@ -4,6 +4,10 @@ export const Topics = [
         text : "Topics"
     },
     {
+        value :"home",
+        text :"Home",
+    },
+    {
         value : "politicalLeader",
         text : "Poitical Leader"
     },
@@ -35,23 +39,23 @@ export const NavItem = [
         text:"Political leaders"
     },
     {
-        link:"",
+        link:"/govtBudjet",
         text:"Government Budjet"
     },
     {
-        link:"",
+        link:"/govtPlans",
         text:"Government Plans"
     },
     {
-        link:"",
+        link:"/govtOfficeNo",
         text:"Government Office Number"
     },
     {
-        link:"",
+        link:"/tourPlace",
         text:"Tourist Place"
     },
     {
-        link:"",
+        link:"/helpLineNo",
         text:"Help Line Numbers"
     },
 ]
@@ -66,21 +70,45 @@ export const marqueedata =[
 ]
 
 export const learderCatogories ={
-    list :{
+ 
     para : [
-        "President",
-        "Voic President",
-        "cheif Minister",
-        "member of parlament.....(MP)",
-        "member of ligislative assembly....(MLA)",
-        "Zilla Parishat Territorial Constituencies....(ZPTC)",
-        "Mandal Parishat Territorial Constituencies....(MPTC )"
-
+        {
+            api: "",
+            text: "President"
+        },
+        {
+            api: "",
+            text: "Voic President",
+        },
+        {
+            api:"http://localhost:8080/leader",
+            text:"Prime Minister",
+        },
+        {
+            api: "",
+            text: "cheif Minister"
+        },
+        {
+            api: "",
+            text: "member of parlament.....(MP)"
+        },
+        {
+            api: "",
+            text: "member of ligislative assembly....(MLA)"
+        },
+        {
+            api: "",
+            text: "Zilla Parishat Territorial Constituencies....(ZPTC)"
+        },
+        {
+            api: "",
+            text: "Mandal Parishat Territorial Constituencies....(MPTC )"
+        }
     ]
 }
-}
 
-export const presidentData ={
+
+export const presidentData = {
         data:[
             "Doctor babu rajendra prasad",
             "(born December 3, 1884, Zeradei, India—died February 28, 1963, Patna)",
@@ -123,15 +151,125 @@ export const Imageslink = ["resources/flag.png","resources/govtlogo.png"]
 
 
 
+//budget data starting
+
+export const BudgetTopic = {
+
+    budgetPara :[
+        {
+            budgetApi: "http://localhost:8080/budget", // Update with the correct URL
+            budgetText: "Central Government budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"State Government budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"District budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"Mandel budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"Education budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"Total budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"agriculture budget",
+        },
+        {
+            budgetApi :"",
+            budgetText :"Railway budget",
+        },
+    ]
+    
+}
+
+///plans
 
 
-// export const Imageslink = [
-//     {
-//         class: "img22",
-//         src: "resources/flag.png"
-//     },
-//     {
-//         class: "img1",
-//         src: "resources/govtlogo.png"
-//     }
-// ]
+export const Govtplans = {
+    plansparagraph:[
+        {
+            plansApi:"http://localhost:8080/plans",
+            plansText:"Andhara Pradesh",
+        },
+        {
+            plansApi:"",
+            plansText:"Kernataka",
+        },
+        {
+            plansApi:"",
+            plansText:"Tamil Nadu",
+        },
+        {
+            plansApi:"",
+            plansText:"Goa",
+        },
+        {
+            plansApi:"",
+            plansText:"Delhi",
+        },
+        {
+            plansApi:"",
+            plansText:"Punjab",
+        },
+        {
+            plansApi:"",
+            plansText:"Gujarat",
+        },
+        {
+            plansApi:"",
+            plansText:"Rajastan",
+        },
+        {
+            plansApi:"",
+            plansText:"Odisha",
+        },
+        {
+            plansApi:"",
+            plansText:"Jammu and kashmir",
+        },
+        {
+            plansApi:"",
+            plansText:"Kolkata",
+        },
+        {
+            plansApi:"",
+            plansText:"Madhya Pradesh",
+        },
+        {
+            plansApi:"",
+            plansText:"Kerala",
+        },
+        {
+            plansApi:"",
+            plansText:"Maharashtra",
+        },
+        {
+            plansApi:"",
+            plansText:"Telangana",
+        },
+        {
+            plansApi:"",
+            plansText:"Utter Pradesh",
+        },
+        {
+            plansApi:"",
+            plansText:"Sikkim",
+        },
+        {
+            plansApi:"",
+            plansText:"Himalchal Pradesh",
+        },
+    ]
+}
+
+
