@@ -25,8 +25,6 @@
 
  <h2>My website looks like</h2>
 
- <h3>Home page</h3>
- <img src="https://dochub.com/smuneera253/2GQ1NXoKyQ6oO3LKDkW6bx/screenshot-from-2023-11-27-14-49-05-png"/>
 
  <img src="https://github.com/smuneera253/G_aware/blob/feat/GA-24-staticpages/Screenshot%20from%202023-10-18%2000-11-03.png"/>
  
