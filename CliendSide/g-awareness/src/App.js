@@ -1,12 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Link from './Component/Routes/Routes';
 function App() {
   return (
     <div className="App">
-     <h1>welcome to G_awareness government website</h1>
+        
+        <Link/>
     </div>
   );
 }
 
-export default App;
+export default Link;
+
+
+// import React from 'react';
+// import './App.css';
+// import Slider from './Slider';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Slider />
+//     </div>
+//   );
+// }
+
+// export default App;
+

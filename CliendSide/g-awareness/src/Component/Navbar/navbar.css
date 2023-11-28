@@ -1,0 +1,118 @@
+.navbar1{
+    width:100%;
+    height: 230px;
+    border: 1px solid black;
+    background-color: rgb(53, 16, 87);
+}
+#cars{
+  margin-left: 80px;
+  margin-bottom:50px;
+  width:70px;
+  height:30px;
+  border-radius:5px;
+  background-color:#242124 ;
+  color:white;
+  margin-top:10px;
+  border:none;
+}
+.line1{
+  display: flex;
+  margin-left: 0px;
+}
+.skip{
+  margin-left: 30px;
+  font-size:15px;
+  color: rgb(253, 250, 250);
+}
+.Dark{
+  background-color: var(--background-color);
+}
+
+.Mood {
+  color: var(--text-color);
+  color: rgb(250, 245, 245);
+}
+.about{
+  margin-left: 1250px;
+  color: rgb(241, 239, 239);
+}
+.img1{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+ margin-bottom: 20px;
+
+}
+.img22{
+  width:100px;
+  height: 100px;
+  margin-left: 60px;
+  border: 1px solid rgb(53, 16, 87);
+  margin-top: -20px;
+}
+.image{
+  width:500px;
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-left: 200px;
+  background-image: url("../../../public/resources/Resources/govt.jpeg");
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.flex{
+  display: flex;
+}
+.search1{
+  width: 600px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 90px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.btn11{
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
+}
+.img3{
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.nav{
+  display: flex;
+  color: white;
+  margin-left: 20px;
+}
+.topic{
+  color: rgb(25, 24, 24);
+  margin-left: 20px;
+}
+.poltical{
+  margin-left: 120px;
+  font-size: 15px;
+  color:white;
+  text-decoration: none;
+}
+.backk{
+  background-color: rgb(53, 16, 87);
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 58px;
+}
+.sign11{
+  margin-left: 490px;
+  color: white;
+  margin-top: 38px;
+}
+.login11{
+  margin-left: 40px;
+  color: white;
+  margin-top: 40px;
+}
+.bottom:hover{
+    border-bottom: 3px solid red;
+}
