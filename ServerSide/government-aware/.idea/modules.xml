@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/government-aware.iml" filepath="$PROJECT_DIR$/.idea/government-aware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/government-aware/government-aware.iml" filepath="$PROJECT_DIR$/government-aware/government-aware.iml" />
     </modules>
   </component>
 </project>
