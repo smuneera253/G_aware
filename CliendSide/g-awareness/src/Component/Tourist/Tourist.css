@@ -1,0 +1,181 @@
+
+.mainbox{
+    width: 100%;
+    height: 1150px;
+    border: 1px solid black;
+    display: flex;
+  }
+  .mainbox1{
+    width: 270px;
+    height: 1060px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    background:linear-gradient(to Right bottom,rgb(53, 16, 87),#562d88, rgb(154, 96, 243) ,rgb(169, 107, 250));
+    box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+  }
+  
+  .Tourist11{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+  }
+  .tourist{
+    color: white;
+    margin-top: 10px;
+  }
+  .dolar{
+    width: 50px;
+    height: 50px;
+
+  }
+  .firstbox{
+    display: flex;
+  }
+  .boderbottom{
+    border-bottom: 3px solid rgb(252, 3, 3);
+    font-size: 20px;
+    color: white;
+    
+}
+.Tourist_text{
+  margin-top: 17px;
+  margin-left: 27px;
+}
+.redcolor{
+  border-bottom: 1px solid rgb(252, 3, 3);
+  margin-right: 40px;
+}
+.purple:hover{
+  color: rgb(32, 17, 85);
+}
+.mainbox2{
+  width: 80%;
+  height: 1056px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #cf68f4;
+}
+.Tplace{
+  width: 97%;
+  height: 300px;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+  display: flex;
+}
+.indiagate{
+  width: 450px;
+  height: 280px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.gate{
+
+  margin-left: 31px;
+  color: #ac2adf ;
+}
+.thisgate{
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* .mainbox3{
+  width: 99%;
+  height: 250px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-left: 1px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #f602e6;
+} */
+.RedFort{
+  width: 97%;
+  height: 300px;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+  display: flex;
+}
+.click{
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(12, 13, 13);
+  font-size: 15px;
+  color: white;
+
+ }
+/* .box6{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 380px;
+  background-color: rgb(26, 37, 86);
+}
+.box7{
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+  background-color: rgb(63, 15, 105);
+}
+.back1{
+  margin-left: 800px;
+  margin-top: 30px;
+  color: white;
+}
+.aboutus{
+  margin-left: 300px;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+}
+.foter{
+  margin-left: 65px;
+}
+
+.facebook1{
+  width: 55px;
+  height: 53px;
+  margin-left: 10px;
+ 
+}
+.Twitter{
+  width: 40px;
+  height: 43px;
+  margin-left: 750px;
+  margin-top: 5px;
+}
+.linkdil{
+  width: 40px;
+  height: 43px;
+  margin-left: 26px;
+  margin-top: 5px;
+}
+.icon2{
+      display: flex;
+      margin-top: 50px;
+}
+.this{
+  margin-left: 500px;
+  color: white;
+  font-size: 10px;
+  margin-top: 80px;
+}
+ */ 
