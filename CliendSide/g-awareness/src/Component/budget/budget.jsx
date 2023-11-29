@@ -94,7 +94,7 @@ function Budget() {
           <div>
             <ul>
               {BudgetTopic.budgetPara.map((item, i) => (
-                <li  className="central state" key={i}>
+                <li  className="budget_central budget_state" key={i}>
                   <p onClick={() => fetchBudgetData(item.budgetApi)}>{item.budgetText}</p>
                 </li>
               ))}
@@ -133,17 +133,17 @@ function Budget() {
           <div className="top">
             <h3 className="lines">more information</h3>
             <ul>
-              <li className=" State"><p>Andhra Pradesh</p></li>
-              <li className=" State"><p >Karnataka</p></li>
-              <li className=" State"><p > Tamil Nadu</p></li>
-              <li className=" State"><p>Kerala</p></li>
-              <li className=" State"><p>Madhya Pradesh</p></li>
-              <li className=" State"><p>Delhi</p></li>
-              <li className=" State"><p>Punjab</p></li>
-              <li className=" State"><p>Gujarat</p></li>
-              <li className=" State"><p>Goa</p></li>
-              <li className=" State"><p>Rajasthan</p></li>
-              <li className=" State"><p>Odisha</p></li>
+              <li className=" budget_State"><p>Andhra Pradesh</p></li>
+              <li className=" budget_State"><p >Karnataka</p></li>
+              <li className=" budget_State"><p > Tamil Nadu</p></li>
+              <li className=" budget_State"><p>Kerala</p></li>
+              <li className=" budget_State"><p>Madhya Pradesh</p></li>
+              <li className=" budget_State"><p>Delhi</p></li>
+              <li className=" budget_State"><p>Punjab</p></li>
+              <li className=" budget_State"><p>Gujarat</p></li>
+              <li className=" budget_State"><p>Goa</p></li>
+              <li className=" budget_State"><p>Rajasthan</p></li>
+              <li className=" budget_State"><p>Odisha</p></li>
             </ul>
           </div>
         </div>
@@ -152,62 +152,14 @@ function Budget() {
 
         <div className="box_line1"></div>
 
-
-   {/* <div className="import_budget">
-      <img src="resources/agriTomata.jpg" className="imageslider1"/>
-      
-      <ul className="textpara">
-                <li  className="line"><p > Agriculture is the process of producing crops and rearing animals for gaining profit.</p></li>
-                <li  className="line"><p> Agriculture provides occupation to a huge Indian population.</p></li>
-                <li  className="line"><p>The contributor to India’s more than 15% GDP is agriculture.</p></li>
-                <li  className="line"><p>Agriculture is the occupation that gives us crops to eat.</p></li>
-                <li  className="line"><p> Fruits, pulses, oil, vegetables, etc things are obtained through agriculture.</p></li>
-                <li className="line"><p>Agriculture also provides us with leather, cotton, wool, and other animal products.</p></li>
-                <li className="line"><p >Agriculture can reduce starvation, poverty, and can raise employment to some extent.</p></li>
-                <li className="line">Budgets show how the government handles its current debt and whether it plans to borrow<br/> more, crucial for evaluating its long-term financial well-being.</li>
-                <li></li>
-              </ul>
-
-   </div> */}
-
-{/* 
-   <div className="box_line"></div>
-
-
-
-   <div className="import_budget1">
-   <button className="readmore">Read more</button>
-
-
-   <ul class="textpara">
-    <p class="line1">Distribute education funds fairly across all levels and regions based on their specific needs.</p>
-    <li class="line1">Distribute education funds fairly across all levels and regions based on their specific needs.</li>
-    <li class="line1">Allocate funds for competitive teacher salaries and ongoing professional development to enhance teaching skills.</li>
-    <li class="line1">Provide schools with up-to-date textbooks, materials, and technology for effective teaching and learning.</li>
-    <li class="line1">Improve learning with technology by investing in computers, internet access, and educational software infrastructure.</li>
-    <li class="line1">Invest in special education resources and allocate funds for inclusive facilities, ensuring accessibility for all students, including those with disabilities.</li>
-</ul>
-<img src="resources/education.avif" className="education"/> */}
-
-
-   {/* </div> */}
-   {/* <div className="import_budget1">
-
-       <img src="resources/budgetprocessof.jpg" className="budgetprocessof"/>
-
-       <ul class="textpara">
-            <li class="line1">Locate budget information in financial reports, department records, or messages from financial officers.</li>
-            <li class="line1">Engage with departments, finance teams, and project managers to gather budget details through effective communication.</li>
-            <li class="line1">Analyze budget documentation, including financial statements and expense reports, to assess income and expenditures.</li>
-            <li class="line1">Utilize budgeting software to access and collect essential financial data, a common practice in modern business management.</li>
-       </ul>
-
-   </div> */}
-
-
   {/*card....*/}
-  <div>
-      <h1 className="budget_information"><u>More Information Of Budget</u></h1>
+  <div className="budget_informationMain">
+      <h1 className="budget_information">
+       
+          More Information Of Budget
+        
+        </h1>
+        <img src="resources/bag-buget.avif" className="img_moreinfo"/>
   </div>
 
   <div className='body1'>
@@ -281,7 +233,7 @@ function Budget() {
             <img src="resources/education.avif" alt="Card" />
           </div>
           <div className="contentplan1">
-            <h3>This is content</h3>
+            <h3>Budget of Education </h3>
             <p>
               Distribute education funds fairly across all levels and regions based on their specific needs.Distribute education funds fairly across all levels and regions based on their specific needs.Allocate funds for competitive teacher salaries and ongoing professional development to enhance teaching skills.Provide schools with up-to-date textbooks, materials, and technology for effective teaching and learning.Improve learning with technology by investing in computers, internet access, and educational software infrastructure.Invest in special education resources and allocate funds for inclusive facilities, ensuring accessibility for all students, including those with disabilities.
             </p>
@@ -299,12 +251,12 @@ function Budget() {
               <div className="containerplans2">
               <div className="cardplan2">
                 <div className="imageplan2">
-                  <img src="resources/education.avif" alt="Card" />
+                  <img src="resources/emergency.avif" alt="Card" />
                 </div>
                 <div className="contentplan2">
-                  <h3>This is content</h3>
+                  <h3>Budget Of Health Care </h3>
                   <p>
-                    Distribute education funds fairly across all levels and regions based on their specific needs.Distribute education funds fairly across all levels and regions based on their specific needs.Allocate funds for competitive teacher salaries and ongoing professional development to enhance teaching skills.Provide schools with up-to-date textbooks, materials, and technology for effective teaching and learning.Improve learning with technology by investing in computers, internet access, and educational software infrastructure.Invest in special education resources and allocate funds for inclusive facilities, ensuring accessibility for all students, including those with disabilities.
+                  Healthcare budgets are strategically divided to address diverse needs. Personnel costs cover salaries of essential healthcare professionals. Funding for infrastructure, facilities, and technology supports a robust medical environment. Medications and preventive care receive dedicated resources for comprehensive health management. Administrative costs ensure the smooth functioning of healthcare systems, and targeted allocations for mental health and long-term care demonstrate a commitment to holistic well-being. These budgetary decisions collectively shape a responsive and inclusive healthcare framework.
                   </p>
                 </div>
               </div>
@@ -372,7 +324,7 @@ function Budget() {
       </button>
 
       {videoVisible && (
-        <div>
+        <div className="vedio_Box">
           <iframe  className="vedioyouTube1"
             width="560"
             height="315"
