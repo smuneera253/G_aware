@@ -1,25 +1,21 @@
 package com.governmentaware.governmentaware.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
-public class leader {
+public class Leader {
     @Id
-    private int pmId;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int pm_id;
 
     @Column
-    private  String Name;
+    private  String name;
 
     @Column
-    private  int Age;
+    private  String starting_date;
 
     @Column
-    private  String StartingDate;
-
-    @Column
-    private  String EndingDate;
+    private  String ending_date;
 
     @Column
     private  String party;
@@ -27,44 +23,36 @@ public class leader {
     @Column
     private  String image;
 
-    public int getPmId() {
-        return pmId;
+    public int getPm_id() {
+        return pm_id;
     }
 
-    public void setPmId(int pmId) {
-        this.pmId = pmId;
+    public void setPm_id(int pm_id) {
+        this.pm_id = pm_id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
-    public int getAge() {
-        return Age;
+    public String getStarting_date() {
+        return starting_date;
     }
 
-    public void setAge(int age) {
-        Age = age;
+    public void setStarting_date(String starting_date) {
+        this.starting_date = starting_date;
     }
 
-    public String getStartingDate() {
-        return StartingDate;
+    public String getEnding_date() {
+        return ending_date;
     }
 
-    public void setStartingDate(String startingDate) {
-        StartingDate = startingDate;
-    }
-
-    public String getEndingDate() {
-        return EndingDate;
-    }
-
-    public void setEndingDate(String endingDate) {
-        EndingDate = endingDate;
+    public void setEnding_date(String ending_date) {
+        this.ending_date = ending_date;
     }
 
     public String getParty() {

@@ -1,9 +1,10 @@
 package com.governmentaware.governmentaware.repository;
 
-import com.governmentaware.governmentaware.model.Helpnum;
+import com.governmentaware.governmentaware.model.HelpNum;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
-public interface HelpnumRepository extends JpaRepository <Helpnum , Integer> {
-    List<Helpnum>findByEmetgency(String emergency)
+public interface HelpNumRepository extends JpaRepository<HelpNum, Integer> {
+    List<HelpNum> findByEmergency(String emergency);
 }
+
