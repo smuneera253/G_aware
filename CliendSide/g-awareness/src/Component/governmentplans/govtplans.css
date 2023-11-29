@@ -1,0 +1,494 @@
+.main11 {
+  width: 100%;
+  /* height: 1000px; */
+  display: flex;
+}
+
+.main12 {
+  width: 330px;
+  height: 720px;
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  background-color: rgb(249, 248, 249);
+  /* border-left: 5px solid rgb(109, 1, 1); */
+  background:linear-gradient(to Right bottom,rgb(53, 16, 87),#562d88, rgb(154, 96, 243) ,rgb(169, 107, 250));
+  color: white;
+
+
+}
+
+.main_plan {
+  width: 80%; /* Adjust the width based on your layout */
+  /* height: 100%; */
+  margin-top: 30px;
+  margin-left: 44px;
+  background-color: rgb(250, 250, 249);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  border-radius: 10px;
+  border-left: 5px solid rgb(101, 2, 2);
+  cursor: pointer;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 40px;
+
+}
+
+  .state{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    /* color: red; */
+   
+
+  }
+  .state1{
+    border-bottom: 2px solid rgb(237, 3, 3);
+    margin-right: 5px;
+  }
+  .redcolor1{
+    margin-right: 30px;
+  }
+  
+  .main14{
+    width: 99%;
+    height: 220px;
+    border: 1px solid black;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    border-radius: 5px;
+    background-color: rgb(11, 92, 136);
+  }
+  .main15{
+      width: 96%;
+      height: 250px;
+      /* border: 1px solid black; */
+      margin-top: 30px;
+      margin-left: 25px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+
+  }
+  .main144{
+    width: 99%;
+    height: 220px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    border-radius: 5px;
+    background-color: rgb(149, 3, 240);
+
+  }
+  .main155{
+    width: 96%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+
+}
+.main1144{
+  width: 99%;
+  height: 220px;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  /* margin-left: 20px; */
+  border-radius: 5px;
+  background-color: rgb(0, 208, 187);
+
+}
+.main1155{
+  width: 96%;
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  margin-left: 25px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+
+}
+/* .flex1{
+  width: 300px;
+  height: 220px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-left: 10px;
+} */
+.amma{
+  margin-left: 40px;
+  color: blueviolet;
+}
+.box6{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 380px;
+  background-color: rgb(26, 37, 86);
+}
+.box7{
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+  background-color: rgb(63, 15, 105);
+}
+.back1{
+  margin-left: 800px;
+  margin-top: 30px;
+  color: white;
+}
+.aboutus{
+  margin-left: 300px;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+}
+.foter{
+  margin-left: 65px;
+}
+
+.facebook1{
+  width: 55px;
+  height: 53px;
+  margin-left: 10px;
+ 
+}
+.Twitter{
+  width: 40px;
+  height: 43px;
+  margin-left: 750px;
+  margin-top: 5px;
+}
+.linkdil{
+  width: 40px;
+  height: 43px;
+  margin-left: 26px;
+  margin-top: 5px;
+}
+.icon2{
+      display: flex;
+      margin-top: 50px;
+}
+.this{
+  margin-left: 500px;
+  color: white;
+  font-size: 10px;
+  margin-top: 80px;
+}
+/* .plan_box{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgb(226, 213, 237);
+}
+   */
+   .plan_box1 {
+    flex: 1;
+    min-width: 47%; /* Adjust the width based on your layout */
+    max-width: 47%; /* Adjust the width based on your layout */
+    height: 280px;
+    border: 1px solid black;
+    margin-top: 30px;
+    /* background-color: rgb(251, 218, 248); */
+    /* border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px; */
+    border-bottom: 9px solid rgb(145, 4, 140);
+    /* display: flex; */
+    margin-left: 20px;
+    border-radius: 10px;
+  
+}
+.planeName{
+  margin-left:500px;
+}
+.color_box{
+  width: 100%;
+  height: 90px;
+  border: 1px solid black;
+  background-color: rgb(193, 104, 234);
+  margin-top: 10px;
+}
+.sector{
+  margin-left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  margin-top: 60px;
+}
+.About_plans{
+  margin-left: 20px;
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+font-optical-sizing: 90px;
+margin-top: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 1.6;
+}
+.plan_list{
+  margin-left: 30px;
+  margin-top: 17px;
+}
+
+
+/* dairy */
+.h1cssclass {
+  font-size: 5.75vmin;
+  text-align: center;
+  color: rgb(20, 20, 20);
+  /* line-height: 0.9; */
+}
+
+.paratgrhaph_pans {
+  font-size: max(10pt, 2.5vmin);
+   line-height: 1.6;
+  color: #0a0b0a;
+  margin-bottom: 1.5rem;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  width: 85vmin;
+  height: 26em;
+  margin: 2rem auto;
+  border: 8px solid;
+  border-image: linear-gradient(-50deg, rgb(79, 0, 128), #8300b3, rgb(139, 34, 101), rgb(4, 0, 128), rgb(1, 8, 30), #6800e6, rgb(53, 0, 128)) 1;
+  transition: .3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  /* margin-right: 800px; */
+  /* margin-top: 30px; */
+  margin-left: 200px;
+  /* border: 1px solid black; */
+}
+
+.overlay {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 1rem .75rem;
+  background:rgba(249, 107, 6, 0.619);
+  transition: .4s ease-in-out;
+  z-index: 1;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vmin;
+  height: 100%;
+  padding: .5rem 0 0 .5rem;
+  border: 3px solid;
+  border-image: linear-gradient(
+    to bottom,
+    #2429ae 5%,
+    rgb(214, 81, 251) 35% 65%,
+    #AEA724 95%
+  ) 0 0 0 100%;
+  transition: .3s ease-in-out .2s;
+  z-index: 1;
+}
+
+.image-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-gandhi-jayanti-background_23-2149120553.jpg?w=1380&t=st=1700991628~exp=1700992228~hmac=a1b3af8115d3cb9fe1912cb910b1f7aa589f518a1f70469c698d0222f432374f");
+  background-size: cover;
+  transition: .3s ease-in-out;
+}
+
+.inset {
+  max-width: 50%;
+  margin: 0.25em 1em 1em 0;
+  border-radius: 0.25em;
+  float: left;
+}
+
+.dots {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 55px;
+  height: 4vmin;
+  transition: .3s ease-in-out .3s;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background: yellow;
+  border: 1px solid indigo;
+  border-radius: 50%;
+  transition: .3s ease-in-out .3s;
+}
+
+.text_animation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  padding: 3vmin 8vmin;
+  background: #fff;
+  box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / .4);
+  overflow-y: scroll;
+  line-height: 1.6;
+}
+
+.wrap:hover .overlay {
+  transform: translateX(-60vmin);
+}
+
+.wrap:hover .image-content {
+  width: 30vmin;
+}
+
+.wrap:hover .overlay-content {
+  border: none;
+  transition-delay: .2s;
+  transform: translateX(60vmin);
+}
+
+.wrap:hover .dots {
+  transform: translateX(1rem);
+}
+
+.wrap:hover .dots .dot {
+  background: white;
+}
+
+/* Animations and timing delays */
+.animate {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+/* Pop In */
+.pop { animation-name: pop; }
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+/* Slide In */
+.slide { animation-name: slide; }
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translate(4em, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+/* Slide Left */
+.slide-left { animation-name: slide-left; }
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translate(-40px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.slide-up {animation-name: slide-up;}
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(3em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-1 { animation-delay: 0.3s; }
+.dairy_plans{
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: rgb(207, 5, 243);
+}
+.plans_whitebox{
+  width: 95%;
+  height: 550px;
+  /* border: 1px solid black; */
+  margin-left: 40px;
+  background-color: white;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* display: flex; */
+  
+
+}
+.whatis_plansbox{
+  /* margin-left: 800px; */
+  padding-top: 30px;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 550px;
+  display: flex;
+
+
+}
+.whatis_benifitplas{
+  margin-left: 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #03017b;
+}
+.plan_typeingText{
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 550px;
+  height: 200px;
+  /* border: 1px solid black; */
+  font-style:italic;
+  line-height: 1.6;
+}
+.whatis_benifitplas1{
+  margin-left: 70px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(76, 11, 3);
+  margin-top: 50px;
+}
+.whatis_benifitplas2{
+  margin-left: 70px;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(76, 11, 3);
+}
+.purple1:hover{
+    color: #8300b3;
+}
+.redcolor1{
+  border-bottom: 1px solid rgb(224, 4, 4);
+  margin-right: 25px;
+}

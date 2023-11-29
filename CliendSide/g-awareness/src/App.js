@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+ import Routefunction from './Component/Routes/Routes';
+// import Componenet from './Component/practice';
+// import Leader from './Component/LeaderPage';
+import Slidercarozal from './Component/practice';
 function App() {
   return (
     <div className="App">
-     <h1>welcome to G_awareness government website</h1>
+        <Routefunction/>
+        {/* <Componenet name="Muneera"/>  */}
+         {/* <Componenet/> */}
+         {/* <Leader/> */}
+
+         {/* <Slidercarozal/> */}
+
     </div>
   );
 }
