@@ -157,7 +157,7 @@ export const Quiteindiamomement =[
 export const Imageslink = ["resources/flag.png","resources/govtlogo.png"]
 
 
-
+        
 
 
 //budget data starting
