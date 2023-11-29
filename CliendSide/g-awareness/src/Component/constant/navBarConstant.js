@@ -50,15 +50,24 @@ export const NavItem = [
         link:"/govtOfficeNo",
         text:"Government Office Number"
     },
-    {
-        link:"/tourPlace",
-        text:"Tourist Place"
-    },
+    // {
+    //     link:"/tourPlace",
+    //     text:"Tourist Place"
+    // },
     {
         link:"/helpLineNo",
         text:"Help Line Numbers"
     },
 ]
+
+export const aboutlink = [
+    {
+      link: '/Aboutpage',
+      abouttext: 'about',
+    }
+  ];
+
+
 
 export const Languages = ["Urdu", "Telugu", "Hindi", "English"]
 
@@ -271,5 +280,26 @@ export const Govtplans = {
         },
     ]
 }
+
+
+ export const data = [
+    {
+      question: "what is budgetin government..?",
+      answer: "In government, a budget is a financial plan that allocates public funds to programs and services, promoting transparency, accountability, economic growth, job creation, and social development. ",
+    },
+    {
+      question: "How many categories of budgets are there?",
+      answer: "Government budgets typically have several categories to organize and allocate funds effectively. While the specific categories may vary between countries and levels of government, common budget categories include",
+    },
+    {
+      question: "Categories names..?",
+      answer: "Revenue,Expenditures,Debt Service,Social Services,Defense,Public Safety,Infrastructure,General Public Services,Contingency or Reserve,Transfers and Grants",
+    },
+    {
+      question: "How do you calculate the budget at the state central level?",
+      answer: "Calculating the budget at the state or central government level involves a detailed process that typically follows these steps,Revenue Estimation,Expenditure Planning,Debt Management,Social Services Allocation,Defense and Security,Public Safety and Justice,Infrastructure Investment,Administration and General Services,Contingency Planning,Transfers and Grants,Budget Review and Approval,Implementation and Monitoring ",
+    },
+  ];
+  
 
 

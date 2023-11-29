@@ -234,7 +234,7 @@
 import React from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
-import { HeadData, Languages, NavItem, Topics } from '../constant/navBarConstant';
+import { HeadData, Languages, NavItem, Topics, aboutlink } from '../constant/navBarConstant';
 
 function Navbar({ input, setInputdata, onClickfunction }) {
   return (
@@ -288,7 +288,12 @@ function Navbar({ input, setInputdata, onClickfunction }) {
             </div>
           </div>
 
-          <div className="login11">about</div>
+          {/* <div className="login11">about</div> */}
+          {aboutlink.map((item, index) => (
+            <div key={index} className='login11'>
+              {item.abouttext}
+            </div>
+      ))}
         </div>
         <hr />
         <div className="nav">

@@ -9,9 +9,10 @@ import Home from '../Home/Home';
 import Budget from '../budget/budget';
 import GovtPlans from '../governmentplans/govtplans';
 import GovtOffice from '../officenumber/govtoffice';
-import Tourist from '../Tourist/Tourist';
+// import Tourist from '../Tourist/Tourist';
 import HelpLine from '../Helpline/Helplinenumber';
 import { getSearchLeader } from '../../redux/ProductRedux/action';
+import AboutPage from '../aboutpage';
 
 function Routefunction() {
 
@@ -48,10 +49,13 @@ function Routefunction() {
 
         <Route path='/govtPlans' Component={GovtPlans} />
         <Route path='/govtOfficeNo' Component={GovtOffice} />
-        <Route path='/tourPlace' Component={Tourist} />
+        {/* <Route path='/tourPlace' Component={Tourist} /> */}
         <Route path='/helpLineNo' Component={HelpLine} />
+        {/* <Route path='/Aboutpage' Component={AboutPage}/> */}
    
       </Routes>
+      <AboutPage/>
+      
       <Footer />
 
 
