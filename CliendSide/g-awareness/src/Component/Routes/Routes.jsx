@@ -12,7 +12,7 @@ import GovtOffice from '../officenumber/govtoffice';
 // import Tourist from '../Tourist/Tourist';
 import HelpLine from '../Helpline/Helplinenumber';
 import { getSearchLeader } from '../../redux/ProductRedux/action';
-import AboutPage from '../aboutpage';
+// import AboutPage from '../aboutpage';
 
 function Routefunction() {
 
@@ -54,7 +54,7 @@ function Routefunction() {
         {/* <Route path='/Aboutpage' Component={AboutPage}/> */}
    
       </Routes>
-      <AboutPage/>
+      {/* <AboutPage/> */}
       
       <Footer />
 

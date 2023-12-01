@@ -180,50 +180,6 @@ function Budget() {
     
     
 
-      {/* <div className="containerplans1">
-        <div className="cardplan1">
-          <div className="imageplan1">
-            <img src="resources/education.avif" alt="Card" />
-          </div>
-          <div className="contentplan1">
-            <h3>This is content</h3>
-            <p>
-              Distribute education funds fairly across all levels and regions based on their specific needs.Distribute education funds fairly across all levels and regions based on their specific needs.Allocate funds for competitive teacher salaries and ongoing professional development to enhance teaching skills.Provide schools with up-to-date textbooks, materials, and technology for effective teaching and learning.Improve learning with technology by investing in computers, internet access, and educational software infrastructure.Invest in special education resources and allocate funds for inclusive facilities, ensuring accessibility for all students, including those with disabilities.
-            </p>
-          </div>
-        </div>
-      </div> */}
-   
-
-{/* 
-    <div className="containerplans">
-        <div className="cardplan">
-          <div className="imageplan">
-            <img src="resources/budgetprocessof.jpg" alt="Card" />
-          </div>
-          <div className="contentplan">
-            <h3>This is content</h3>
-            <p>
-                Locate budget information in financial reports, department records, or messages from financial officers.
-                Engage with departments, finance teams, and project managers to gather budget details through effective communication.
-                Analyze budget documentation, including financial statements and expense reports, to assess income and expenditures.
-                Utilize budgeting software to access and collect essential financial data, a common practice in modern business management.            </p>
-            </div>
-        </div>
-      </div> */}
-      {/* <div className="containerplans">
-        <div className="cardplan">
-          <div className="imageplan">
-            <img src="resources/agriTomata.jpg"alt="Card" />
-          </div>
-          <div className="contentplan">
-            <h3>Budget On Agriculture</h3>
-            <p>
-               Agriculture is the process of producing crops and rearing animals for gaining profit.Agriculture provides occupation to a huge Indian population.The contributor to India’s more than 15% GDP is agriculture.Agriculture is the occupation that gives us crops to eat.Fruits, pulses, oil, vegetables, etc things are obtained through agriculture.Agriculture also provides us with leather, cotton, wool, and other animal products.Agriculture can reduce starvation, poverty, and can raise employment to some extent.Budgets show how the government handles its current debt and whether it plans to borrow more, crucial for evaluating its long-term financial well-being.
-            </p>
-          </div>
-        </div>
-      </div> */}
       </div>
       {/* uytre1 */}
       <div className="body2">
@@ -296,29 +252,9 @@ function Budget() {
          
           <img src="resources/highanglebusget.jpg" className="image_budget"/>
 
-          {/* <div  className="vedioyouTube">
-            <iframe  className="vedioyouTube1"
-             
-              src="https://www.youtube.com/embed/s2nKZtv-GeM"
-              
-              allowFullScreen
-            ></iframe> */}
-                    {/* <img src="/resources/cloud.png" alt="Cloud" className="image_cloud" />
-
-                  {/* Overlaying text 
-                <div className="overlay-text">
-                  <p className="vedio_Text">
-                  "You will find comprehensive information about<br/> the budget, covering all <br/>essential details, in this video."
-
-
-                  </p>
-                </div>
-          </div>
-         */}
+       
         </div>
-        {/* <div className="clickCircle">
-          <img src="resources/iconyoutube.jpg" className="youtube_icon" />
-        </div> */}
+       
  <button className="clickCircle" onClick={handleClick}>
         {videoVisible ? 'Hide Video' : 'Show Video'}
       </button>

@@ -49,12 +49,12 @@ function Leader({ LeaderData }) {
                 ))
             }
 
-            <div className="MAIN">
+            <div className="leader_main">
                 <div className="leader1 shad ">
                     <div className="leader2 ">
                         <img src="resources/people.png" className="people" />
 
-                        <h2 className="bottom1">Poltical leaders</h2>
+                        <h2 className="leader_bottom1">Poltical leaders</h2>
 
                     </div>
                     <div>
@@ -78,7 +78,7 @@ function Leader({ LeaderData }) {
                     </div>
 
                 </div>
-                <div className="MAIN2">
+                <div className="leader_main2">
 
                     {
                         (click && currentPosts) && currentPosts
@@ -90,17 +90,17 @@ function Leader({ LeaderData }) {
                                     <div key={pm_id} class="leaderData">
                                         <div >
                                             <img src={image} alt="no image" className="pmImage" />
-                                            <div className="PM_NAME">
+                                            <div className="pm_name">
                                                 <p className="pmName">Name</p>
                                                 <div className="pmName">{name}</div>
                                             </div>
 
-                                            <div className="PM_NAME">
+                                            <div className="pm_name">
                                                 <p className="pmName">starting_date</p>
                                                 <div className="pmName">{starting_date}</div>
                                             </div>
 
-                                            <div className="PM_NAME">
+                                            <div className="pm_name">
                                                 <p className="pmName">ending_date</p>
                                                 <div className="pmName">{ending_date}</div>
 
@@ -133,25 +133,7 @@ function Leader({ LeaderData }) {
             <div className="MAIN4">
                 <b><p className="import">important plans</p></b>
                 <p className="import1">The prasident of collaborate others and making the plans </p>
-                {/* <div className="MAIN5 shado">
-                    
-                    <div className="plan1 ">
-                        {
-                            Quiteindiamomement.map((item,i)=>(
-                                <div className="plan2 shadow3 ">
-                                    <img key={i} src={item.image} className="photo"/>
-                                    <div key={i} className="move1">{item.text}</div>
-                                    
-                                    <button key={i} className="all">{item.button}</button>
-                                </div>
-                            ))
-                        }
-                    </div>
-                </div> */}
-
-
-
-
+               
                 <div className="MAINbox6 ">
                     <div className="plan1 ">
                         <div className="plan2 color1 ">
@@ -193,12 +175,3 @@ function Leader({ LeaderData }) {
 
 export default Leader;
 
-
-
-// .arrow1{
-//     width: 25px;
-//     height: 20px;
-//     margin-top: 10px;
-//     margin-left: 10px;
-//     margin-right: 10px;
-//   }

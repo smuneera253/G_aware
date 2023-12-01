@@ -1,5 +1,5 @@
 import React from "react";
-import './pag.css';
+import './pagenation.css';
 
 
 const Pagenation = ({totalPosts,postsPerPage,setCurrentPage})=>{
