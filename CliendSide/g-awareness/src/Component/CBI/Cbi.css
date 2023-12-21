@@ -1,0 +1,146 @@
+.Cbi_Img{
+    width: 100%;
+    height: 760px;
+}
+.Cbi_marqu{
+    height: 40px;
+    background-color: #33014e;
+    color: white;
+    font-family: serif;
+}
+.Cbi_marquee{
+    padding-top: 10px;
+}
+.Cbi_mainBox{
+    display: flex;
+}
+.Cbi_whiteBox{
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-left: 4rem;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transform: translateY(-100px);
+    border-radius: 5px;
+}
+.Cbi_smallBox{
+    margin-left: 40px;
+    width: 83rem;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.Cbi_infoHeading{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: serif;
+    font-size: 15px;
+}
+.Cbi_List{
+    margin-left: 53px;
+    margin-top: 20px;
+    line-height: 1.9;
+    font-family: serif;
+    font-size: 15px;
+}
+.Cbi_Heading{
+    margin-left: 4px;
+    margin-top: 60px;
+    font-family: serif;
+    font-size: 20px;
+    /* border-bottom: 1px solid black; */
+    margin-right: 50rem;
+}
+.Cbi_imgeAndText{
+    display: flex;
+}
+.Cbi_img2{
+    width: 100px;
+    height: 83px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.Cbi_Question{
+    margin-left: 68px;
+    margin-top: 40px;
+    margin-right: 130px;
+    text-align: justify;
+    line-height: 1.9;
+    font-family: serif;
+
+
+
+}
+.Cbi_Question1{
+    font-size: 15px;
+    font-family: serif;
+    
+
+}
+.Cbi_paragraph{
+    margin-top: 20px;
+    font-family: serif;
+
+
+}
+.Cbi_Question2{
+    font-size: 15px;
+    font-family: serif;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 40px;
+
+  }
+  
+  th, td {
+    border: 1px solid #610094;
+    text-align: left;
+    padding: 8px;
+    /* color: white; */
+  }
+  
+  th {
+    background-color: #610094;
+  }
+  .Cbi_qulificationImg{
+    width: 50rem;
+    height: 30rem;
+    margin-left: 41px;
+  }
+  .Cbi_List2{
+    margin-left: 73px;
+    margin-top: 20px;
+    line-height: 1.9;
+    font-family:serif;
+    font-size: 15px;
+    word-spacing: 0cap;
+  }
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  ul ul {
+    margin-left: 20px;
+  }
+  
+  ul ul li {
+    margin: 8px 0;
+  }
+.Cbi_List3{
+    margin-left: 53px;
+    margin-top: 20px;
+    line-height: 1.9;
+    font-family:serif;
+    font-size: 15px;
+    word-spacing: 0cap;
+}  

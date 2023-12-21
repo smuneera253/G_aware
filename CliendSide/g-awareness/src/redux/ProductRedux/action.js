@@ -1,147 +1,3 @@
-// import {
-//     GET_ALL_LEADER_REQUEST,
-//     GET_ALL_LEADER_FAILURE,
-//     GET_ALL_LEADER_SUCCESS,
-//     GET_SEARCH_LEADER_FAILURE,
-//     GET_SEARCH_LEADER_REQUEST,
-//     GET_SEARCH_LEADER_SUCCESS,
-
-//     GET_ALL_BUDGET_REQUEST,
-//     GET_ALL_BUDGET_FAILURE,
-//     GET_ALL_BUDGET_SUCCESS,
-    
-
- 
-//   } from "./actionType";
-  
-//   import axios from "axios";
-  
-//   export const getallleaderrequest = () => ({
-//     type: GET_ALL_LEADER_REQUEST,
-//   });
-  
-//   export const getallleaderfailure = (message) => ({
-//     type: GET_ALL_LEADER_FAILURE,
-//     message
-//   });
-  
-//   export const getallleadersuccess = (data) => ({
-//     type: GET_ALL_LEADER_SUCCESS,
-//     payload:data
-//   });
-  
-//   export const getAllleader = (url) => (dispatch) => {
-//     dispatch(getallleaderrequest());
-//     axios.get(url)
-//       .then(res => {
-//         dispatch(getallleadersuccess(res.data))
-//       })
-//       .catch(err => {
-//         dispatch(getallleaderfailure(err.message))
-//       })
-//   };
-  
-//   // Search API
-  
-//   export const getSearchLeaderRequest = () => ({
-//     type: GET_SEARCH_LEADER_REQUEST,
-//   });
-  
-//   export const getSearchLeaderFailure = (message) => ({
-//     type: GET_SEARCH_LEADER_FAILURE,
-//     message
-//   });
-  
-//   export const getSearchLeaderSuccess = (payload) => ({
-//     type: GET_SEARCH_LEADER_SUCCESS,
-//     payload,
-//   });
-  
-//   export const getSearchLeader = (data) => (dispatch) => {
-//     dispatch(getSearchLeaderRequest());
-//     axios.get(`http://localhost:8080/leader/search?query=${data}`)
-//       .then(res => {
-//         dispatch(getSearchLeaderSuccess(res.data))
-//       })
-//       .catch(err => {
-//         dispatch(getSearchLeaderFailure(err.message))
-//       })
-//   };
-  
-//   // Budget data
-  
-//   export const getAllBudgetrequest = () => ({
-//     type: GET_ALL_BUDGET_REQUEST,
-   
-//   });
-  
-  
-//   export const getAllBudgetfailure = (message) => ({
-//     type: GET_ALL_BUDGET_FAILURE,
-//     message
-//   });
-  
-//   export const getAllBudgetsuccess = (payload) => ({
-//     type: GET_ALL_BUDGET_SUCCESS,
-//     payload,
-//   });
-  
-//   // export const getAllBudget = (url) => (dispatch) => {
-//   //   console.log(getAllBudget);
-//   //   dispatch(getAllBudgetrequest());
-//   //   axios.get(url)
-//   //     .then(res => {
-//   //       dispatch(getAllBudgetsuccess(res.data))
-//   //     })
-//   //     .catch(err => {
-//   //       dispatch(getAllBudgetfailure(err.message))
-//   //     })
-//   // };
-
-
-  
-// export const getAllBudget = (url) => (dispatch) => {
-//   // Check if url is defined
-//   if (!url) {
-//     // Handle the case where url is not defined
-//     dispatch(getAllBudgetfailure('URL is undefined')); // Dispatch an error action or handle it accordingly
-//     return;
-//   }
-
-//   // Dispatch the request action
-//   dispatch(getAllBudgetrequest());
-
-//   // Make the axios request
-//   axios.get(url)
-//     .then(res => {
-//       // Dispatch the success action with the data from the response
-//       dispatch(getAllBudgetsuccess(res.data));
-//     })
-//     .catch(error => {
-//       // Handle the error, e.g., dispatch an error action
-//       dispatch(getAllBudgetfailure(error.message));
-//     });
-// };
-
-// export default getAllBudget;  // Export the action creator
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import {
   GET_ALL_LEADER_REQUEST,
   GET_ALL_LEADER_FAILURE,
@@ -168,6 +24,16 @@ import {
   GET_SEARCH_PLANS_FAILURE,
   GET_SEARCH_PLANS_SUCCESS,
 
+
+  GET_ALL_HELP_REQUEST,
+  GET_ALL_HELP_FAILURE,
+  GET_ALL_HELP_SUCCESS,
+
+
+
+  GET_ALL_TOURIST_REQUEST,
+  GET_ALL_TOURIST_FAILURE,
+  GET_ALL_TOURIST_SUCCESS,
 
   
 
@@ -320,29 +186,6 @@ export const getAllPlansSuccess = (payload) => ({
 
 
 
-// export const getAllPlans = (url) => (dispatch) => {
-//   // Check if url is defined
-//   if (!url) {
-//     // Handle the case where url is not defined
-//     dispatch(getAllPlanstfailure('URL is undefined')); // Dispatch an error action or handle it accordingly
-//     return;
-//   }
-  
-//   // Dispatch the request action
-//   dispatch(getAllPlansrequest());
-  
-//   // Make the axios request
-//   axios.get(url)
-//     .then(res => {
-//       // Dispatch the success action with the data from the response
-//       dispatch(getAllPlanssuccess(res.data));
-//     })
-//     .catch(error => {
-//       // Handle the error, e.g., dispatch an error action
-//       dispatch(getAllPlanstfailure(error.message));
-//     });
-//   };
-
 
 
 
@@ -399,4 +242,111 @@ export const getAllPlans = (url) => (dispatch) => {
 // };
 
 // export default getAllPlans;
+
+
+
+
+
+
+//help line numbers
+
+
+
+
+export const getAllHelpRequest = () => ({
+  
+  type: GET_ALL_HELP_REQUEST,
+ 
+});
+
+
+export const getAllHelpFailure = (message) => ({
+  type: GET_ALL_HELP_FAILURE,
+  message
+});
+
+export const getAllHelpSuccess = (payload) => ({
+  type: GET_ALL_HELP_SUCCESS,
+  payload,
+});
+
+
+
+
+
+
+
+export const getAllHelp = (url) => (dispatch) => {
+  // ... (previous code)
+
+  axios.get(url)
+    .then(res => {
+      // Log the response to check the data structure
+      console.log('API Response:', res.data);
+
+      // Dispatch the success action with the data from the response
+      dispatch(getAllHelpSuccess(res.data));
+    })
+    .catch(error => {
+      // Log the error for debugging
+      console.error('API Error:', error);
+
+      // Handle the error, e.g., dispatch an error action
+      dispatch(getAllHelpFailure(error.message));
+    });
+};
+
+///TOURIST DATA
+
+
+
+
+
+
+
+export const getAllTouristRequest = () => ({
+  
+  type: GET_ALL_TOURIST_REQUEST,
+ 
+});
+
+
+export const getAllTouristFailure = (message) => ({
+  type: GET_ALL_TOURIST_FAILURE,
+  message
+});
+
+export const getAllTouristSuccess = (payload) => ({
+  type: GET_ALL_TOURIST_SUCCESS,
+  payload,
+});
+
+
+
+
+
+
+
+export const getAllTourist = (url) => (dispatch) => {
+  // ... (previous code)
+
+  axios.get(url)
+    .then(res => {
+      // Log the response to check the data structure
+      console.log('API Response:', res.data);
+
+      // Dispatch the success action with the data from the response
+      dispatch(getAllTouristSuccess(res.data));
+    })
+    .catch(error => {
+      // Log the error for debugging
+      console.error('API Error:', error);
+
+      // Handle the error, e.g., dispatch an error action
+      dispatch(getAllTouristFailure(error.message));
+    });
+};
+
+
+
 

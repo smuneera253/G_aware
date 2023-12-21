@@ -9,10 +9,27 @@ import Home from '../Home/Home';
 import Budget from '../budget/budget';
 import GovtPlans from '../governmentplans/govtplans';
 import GovtOffice from '../officenumber/govtoffice';
-// import Tourist from '../Tourist/Tourist';
+import Tourist from '../Tourist/Tourist';
 import HelpLine from '../Helpline/Helplinenumber';
 import { getSearchLeader } from '../../redux/ProductRedux/action';
-// import AboutPage from '../aboutpage';
+import AboutPage from '../aboutpage';
+import UpscJob from '../Jobs/UPSC';
+import Human from '../Human/Human';
+import Railways from '../Railway/Railway';
+import BeidExam from '../BeidExam/beidExam';
+import Neet from '../NEET/neet';
+import CbiInformation from '../CBI/Cbi';
+import Agriculture from '../Agriculture/agriculture';
+import Army from '../Army/Army';
+import CricketGame from '../Cricket/Cricket';
+
+
+
+
+
+
+
+
 
 function Routefunction() {
 
@@ -46,12 +63,29 @@ function Routefunction() {
         <Route path="/MPTC" Component={Leader} />
         {/* <Route path='/govtBudjet' Component={Budget} /> */}
         <Route path='/govtBudjet' element={<Budget />} />
-
         <Route path='/govtPlans' Component={GovtPlans} />
         <Route path='/govtOfficeNo' Component={GovtOffice} />
-        {/* <Route path='/tourPlace' Component={Tourist} /> */}
+        <Route path='/tourPlace' Component={Tourist} />
         <Route path='/helpLineNo' Component={HelpLine} />
-        {/* <Route path='/Aboutpage' Component={AboutPage}/> */}
+        <Route path='/about' Component={AboutPage}/>
+        <Route path='/human' Component={Human}/>
+        <Route path="/upse" element={<UpscJob/>} />
+        <Route path="/rail" element={<Railways/>} />
+        <Route path="/beid" element={<BeidExam/>} />
+        <Route path="/Neet" element={<Neet/>} />
+        <Route path="/Cbi" element={<CbiInformation/>} />
+        <Route path="/agri" element={<Agriculture/>} />
+        <Route path="/army" element={<Army/>} />
+        <Route path="/Cricket" element={<CricketGame/>} />
+
+
+
+
+
+
+
+
+
    
       </Routes>
       {/* <AboutPage/> */}

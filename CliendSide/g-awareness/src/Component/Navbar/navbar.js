@@ -39,10 +39,14 @@ function Navbar({ input, setInputdata, onClickfunction }) {
 
           <div class="navbar_navbar">
             <div class="dropdown">
-              <button class="dropbtn">
+
+
+            <div ><Link to="/human"  className="Navvar_aboutlink"> Human Right</Link></div>
+
+              {/* <div className="poltical navbar_bottom">
                 Human Right <i className="fa fa-angle-double-down"></i>
-              </button>
-              <div class="dropdown-content">
+              </div> */}
+              {/* <div class="dropdown-content">
                 <i class="fa fa-angle-up"></i>
                 <a href="#"><img src='resources/arrow.png' className='navbar_arrow'/> Right to Equality:</a>
                                     <a href="#"> <img src='resources/arrow.png' className='navbar_arrow'/>Right to Freedom: </a>
@@ -52,21 +56,20 @@ function Navbar({ input, setInputdata, onClickfunction }) {
                                      <a href="#"> <img src='resources/arrow.png' className='navbar_arrow'/>Right to Constitutional Remedies:  </a>
                                      <a href="#"> <img src='resources/arrow.png' className='navbar_arrow'/>Right to Education:  </a>
                                 
-              </div>
+              </div> */}
             </div>
           </div>
+          <div ><Link to="/about"  className="Navvar_aboutlink">About</Link></div>
+
 
           {/* <div className="login11">about</div> */}
-          {aboutlink.map((item, index) => (
-            <div key={index} className='login11'>
-              {item.abouttext}
-            </div>
-      ))}
+
+          
         </div>
         <hr />
         <div className="nav">
           <div>
-            <select className="backk bottom">
+            <select className="backk navbar_bottom">
               {Topics.map((data, i) => (
                 <option key={i} value={data.value}>
                   {data.text}
@@ -76,7 +79,7 @@ function Navbar({ input, setInputdata, onClickfunction }) {
           </div>
           {NavItem.map((item, i) => (
             <span key={i}>
-              <Link to={item.link} className="poltical bottom">
+              <Link to={item.link} className="poltical navbar_bottom">
                 {item.text}
               </Link>
             </span>

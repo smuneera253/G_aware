@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Homepage.css';
+import { Link } from 'react-router-dom';
 
 
 const divStyle = {
@@ -35,14 +36,14 @@ const slideImages = [
     url: 'https://nhrc.nic.in/sites/default/files/slider-1.jpg',
   },
   {
-    url: 'file:///home/jtbb/Desktop/quizer/public/banner.jpg',
+    url: 'https://knowindia.india.gov.in/assets/images/banner/inr-banner-my-pride.jpg',
   },
-  {
-    url: 'https://www.india.gov.in/sites/upload_files/npi/files/upaj.jpg',
-  },
-  {
-    url: 'https://www.mha.gov.in/sites/default/files/styles/homepage_top_slider/public/banner1_1_0_0_0.jpg?itok=STbFEEXc',
-  },
+  // {
+  //   url: 'https://www.india.gov.in/sites/upload_files/npi/files/upaj.jpg',
+  // },
+  // {
+  //   url: 'https://www.mha.gov.in/sites/default/files/styles/homepage_top_slider/public/banner1_1_0_0_0.jpg?itok=STbFEEXc',
+  // },
 ];
 
 const data = [
@@ -54,10 +55,7 @@ const data = [
     name: 'Cricket',
     img: '/resources/cricket.jpeg',
   },
-  {
-    name: 'Railway',
-    img: '/resources/railway.webp',
-  },
+  
   {
     name: 'Army',
     img: '/resources/indian army.jpeg',
@@ -75,6 +73,7 @@ const settings = {
   centerPadding: '25px',
   autoplay: true,
   autoplaySpeed: 3000,
+  backgroundColor:"red"
 };
 
 const Home = () => {
@@ -128,6 +127,17 @@ const Home = () => {
   }, [itemIndex]); // Dependency array to ensure the effect runs when itemIndex changes
 
 
+
+// Govt Jobs slider
+
+
+
+
+
+
+
+
+
   return (
     <div>
       <marquee>
@@ -135,6 +145,7 @@ const Home = () => {
           Our website provides comprehensive information on government-related topics, including details about the current Prime Minister, their accomplishments, and performance in office. We also offer insights into government benefit plans and loans available to citizens, along with a clear hierarchy of government officials. Additionally, we provide contact numbers for various government offices, ensuring easy access for any inquiries or assistance needed. Lastly, our website features valuable information on popular tourist destinations, including relevant contact numbers, enabling visitors to plan their trips effectively.
         </p>
       </marquee>
+      <div className='image_box'>
 
       <Slide>
         {slideImages.map((slideImage, index) => (
@@ -143,40 +154,128 @@ const Home = () => {
           </div>
         ))}
       </Slide>
+      </div>
+
 
       <img src="resources/logoindia.webp" className="img4" />
 
       <div className="marquee-box box2">
         <p className="Basic-Aware">Basic Awareness</p>
         <div className="boxewhite">
-          <div className="mainttt">
-            <Slider {...settings}>
-              {data.map((d, index) => (
-                <div key={index}>
-                  <div className="card">
-                    <img src={d.img} alt={d.name} className="card-image" />
-                    <div className="card-content">
-                      <h2 className="card-title">{d.name}</h2>
-                      <p className="card-text">{d.review}</p>
-                      <button className="card-button">Read more</button>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </Slider>
+        {/* <div className="mainttt">
+  <Slider {...settings}>
+    {data.map((d, index) => (
+      <div key={index}>
+        <div className="card">
+          <img src={d.img} alt={d.name} className="card-image" />
+          <div className="card-content">
+            <h2 className="card-title">{d.name}</h2>
+            <p className="card-text">{d.review}</p>
+
+            <Link to='/agri'>
+              <button className="card-button">Read more</button>
+            </Link>
+
+            {d.isArmyCard && (
+              <Link to='/army'>
+                <button className="card-button">Read more (Army)</button>
+              </Link>
+            )}
+
+            {d.isCricketCard && (
+              <Link to='/cricket'>
+                <button className="card-button">Read more (Cricket)</button>
+              </Link>
+            )}
           </div>
+        </div>
+      </div>
+    ))}
+  </Slider> */}
+  {/* <div> */}
+          {/* </div> */}
+
+
+
+
+
+          <div className="mainttt">
+      <Slider {...settings}>
+        {data.map((d, index) => (
+          <div key={index}>
+            <div className="card">
+              <img src={d.img} alt={d.name} className="card-image" />
+              <div className="card-content">
+                <h2 className="card-title">{d.name}</h2>
+                <p className="card-text">{d.review}</p>
+
+                <Link to='/agri'>
+                  <button className="card-button">Read more</button>
+                </Link>
+
+
+                <Link to='/army'>
+                <button className="card-button">Read more </button>
+
+                </Link>
+
+                {/* {d.isArmyCard && (
+                  <Link to='/army'>
+                    <button className="card-button">Read more </button>
+                  </Link>
+                )}
+
+                {d.isCricketCard && (
+                  <Link to='/Cricket'>
+                    <button className="card-button">Read more (Cricket)</button>
+                  </Link>
+                )} */}
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
+
+
+
+
+
         </div>
       </div>
 
       <div className="box3">
         <p className="jobs">Indian Government Jobs</p>
         <div className="box4 ">
-          <img src="resources/UPSC.webp" className="img10 color3" />
-          <img src="resources/psc.png" className="img10 color3" />
-          <img src="resources/train .webp" className="img10 color3" />
-          <img src="resources/NEET1.webp" className="img10 color3" />
-          <img src="resources/CBI.png" className="img10 color3" />
-          <button className="viewbtn">view all jobs</button>
+        <Link to='/upse'>
+              <img src="resources/UPSC.webp" alt="UPSC Image" className="img10 color3" />
+        </Link>
+              
+              
+          <Link to='/beid'>
+              
+              <img src="https://www.exams88.in/wp-content/uploads/2021/02/B.Ed-Entrance-Exam-2023.jpg" className="img10 color3" />
+
+            </Link>
+          
+          
+          
+          <Link to="/rail">
+              <img src="resources/train .webp"  alt="Train" className="img10 color3" />
+          </Link>         
+
+        <Link to='/Neet'>
+                
+            <img src="resources/NEET1.webp" className="img10 color3" />
+
+        </Link>
+        
+          <Link to='/Cbi'>
+              <img src="resources/CBI.png" className="img10 color3" />
+
+          </Link>
+
+
         </div>
       </div>
 

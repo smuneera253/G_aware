@@ -38,13 +38,13 @@
     display: flex;
   }
   .boderbottom{
-    border-bottom: 3px solid rgb(252, 3, 3);
+    border-bottom: 3px solid rgb(27, 25, 25);
     font-size: 20px;
     margin-top: 20px;
     
 }
 .budget_central{
-    border-bottom: 1px solid  rgb(248, 10, 10);
+    border-bottom: 1px solid  rgb(8, 7, 7);
     font-size: 15px;
     margin-right: 30px;
     margin-top: 27px;
@@ -87,7 +87,7 @@
   margin-left: 20px;
 }
 .lines{
-  border-bottom: 3px solid rgb(131, 3, 3);
+  border-bottom: 2px solid rgb(255, 254, 254);
   margin-right: 70px;
   margin-left: 20px;
 }
@@ -137,7 +137,7 @@
   width: 100px;
   height: 34px;
   border-radius: 10px;
-  background-color: rgb(229, 63, 8);
+  background-color: rgb(17, 15, 15);
   color: white;
   margin-left: 160px;
   margin-top: 10px;
@@ -252,7 +252,7 @@
     border: 1px solid black;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
-    border-bottom: 8px solid rgb(202, 21, 21);
+    border-bottom: 7px solid rgb(22, 21, 21);
     cursor: pointer;
   }
   .central_box{
@@ -288,14 +288,14 @@
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
     transition: all 1s;
-     border-bottom: 8px solid rgb(31, 1, 57);
+     border-bottom: 8px solid rgb(22, 21, 22);
   }
   .vediobox{
     width: 100%;
     height: 400px;
     border: 1px solid  black;
     margin-top: 200px;
-    background-color: rgb(31, 2, 69);
+    background-color: rgb(79, 11, 168);
   }
   .vediowhite{
     width: 95%;
@@ -308,15 +308,15 @@
     display: flex;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  .vedioyouTube{
+  /* .vedioyouTube{
     margin-left: 480px;
     margin-top: 55px;
     width: 650px;
     height: 480px;
-    background-color: rgb(208, 65, 244);
+    background-color: #610094;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
+} */
   .vedioyouTube1{
     margin-left: 50px;
     margin-top: 50px;
@@ -350,7 +350,7 @@
     width: 100%;
     height: 300px;
     border: 1px solid pink;
-    background-color: rgb(141, 22, 252);
+    background-color: #610094;
     margin-top: 50px;
     transform: translateY(-700px);
   }
@@ -367,28 +367,31 @@
 
   }
   .basic{
-    margin-left: 300px;
+    margin-left: 320px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(6, 6, 6);
+    border-bottom: 1px solid rgb(162, 160, 160);
+    margin-right: 200px;
+    
   }
   .basic2{
     margin-left: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 17px;
     color: rgb(7, 8, 11);
     margin-top: 60px;
-    font-style: italic;
+    /* font-style: italic; */
 
   }
   .basic3{
     margin-left: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 17px;
     color: rgb(7, 8, 11);
     margin-top: 10px;
-    font-style: italic;
+    /* font-style: italic; */
   }
   .basic3_box{
     width: 440px;
@@ -452,12 +455,13 @@
 }
 .clickCircle{
   width: 100px;
-  height: 50px;
-  background-color: rgb(130, 89, 0);
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  margin-left: 38%;
-  transform: translateY(-50px);
+  height: 40px;
+  background-color: #610094;
+  /* border-top-right-radius: 50px;
+  border-top-left-radius: 50px; */
+  border-radius: 20px;
+  margin-left: 30%;
+  transform: translateY(-100px);
   color: white;
   font-size: 13px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -489,12 +493,12 @@
 
 }
 .more_information{
-  transform: translateY(-140px);
-  margin-left: 380px;
+  transform: translateY(-110px);
+  margin-left: 300px;
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  color: blue;
+  /* font-style: italic; */
+  color: rgb(13, 13, 13);
 }
 .readmore{
   width: 200px;
@@ -513,10 +517,7 @@
 
 .body {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background-color: #43345d; */
-  /* min-height: 500px;*/
+  
   margin-right: 700px; 
 }
 
@@ -770,7 +771,7 @@
   width: 500px;
   height: 50px;
   /* border: 1px solid black; */
-  color: rgb(255, 166, 0);
+  color: rgb(13, 13, 12);
   text-align: center;
   /* margin-right: 500px; */
 
@@ -799,7 +800,7 @@
   background-color: #43345d;
   margin-left: 500px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  background-color: #f6f6f7;
-  border-bottom: 7px solid purple;
+  border-bottom: 7px solid #610094;
 
 }
 

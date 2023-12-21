@@ -61,9 +61,10 @@ function GovtPlans() {
     
         <div className="main_plan">
           {plansClick && PlansData && PlansData.length > 0 ? (
-            PlansData.map(({ id, planName, sector, about, plan_name }) => (
+            PlansData.map(({ id, planName, sector, about, plan_name,image }) => (
               <div key={id} className="plan_box1">
-                <p>{planName}</p>
+                <img src={image} className="plans_image"/>
+                <h1>{planName}</h1>
                 <p className="sector">{sector}</p>
                 <p className="About_plans">{about}</p>
                 <p>{plan_name}</p>
@@ -94,7 +95,7 @@ function GovtPlans() {
               <div className="overlay">
                 <div className="overlay-content animate slide-left delay-2">
                   <p className="h1cssclass animate slide-left pop delay-4">Basic-aware</p>
-                  <p className=" paratgrhaph_pans animate slide-left pop delay-5" style={{ color: 'black', marginBottom: '2.5rem' }}>Central: <em>GovernmentPlans</em></p>
+                  <p className=" paratgrhaph_pans animate slide-left pop delay-5" style={{ color: 'white', marginBottom: '2.5rem' }}>Central: <em>GovernmentPlans</em></p>
                 </div>
                 <div className="image-content animate slide delay-5"></div>
                 <div className="dots animate">

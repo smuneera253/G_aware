@@ -36,7 +36,7 @@
                 
 
 //                 <p></p>
-//                 {/* <p className="this">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>*/}
+               <p className="this">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>
 //             </div>
 //         </div>
 //         </div>
@@ -63,7 +63,7 @@ function Footer() {
     <div className="top_foter1">
       <div>
         <div className="foter_box611">
-          <span className="foter_back11">back to top</span>
+          <span className="foter_back11  foter_back">back to top</span>
         </div>
         <div className="foter_box71">
           <div className="foter_aboutus1">
@@ -87,7 +87,8 @@ function Footer() {
               <img className="foter_facebook1" src="resources/facebook.webp" alt="image" />
             </div>
           </div>
-          <p></p>
+          <p className="foter_this1 ">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>
+
         </div>
       </div>
     </div>

@@ -1,93 +1,26 @@
-/* .box611{
-    width: 100%;
-    height: 50px;
-    border: 1px solid black;
-    margin-top: 380px;
-    background-color: rgb(34, 34, 79);
-  }
-  .box71{
-    width: 100%;
-    height: 550px;
-    border: 1px solid black;
-    background-color: rgb(63, 15, 105);
-  }
-  .back11{
-    margin-left: 800px;
-    margin-top: 30px;
-    color: white;
-    padding-top: 10px;
-  }
-  .aboutus1{
-    margin-left: 300px;
-    color: white;
-    margin-top: 50px;
-    display: flex;
-  }
-  .foter1{
-    margin-left: 65px;
-  }
-  
-  .facebook1{
-    width: 55px;
-    height: 53px;
-    margin-left: 10px;
-   
-  }
-  .Twitter1{
-    width: 40px;
-    height: 43px;
-    margin-left: 750px;
-    margin-top: 5px;
-  }
-  .linkdil1{
-    width: 40px;
-    height: 43px;
-    margin-left: 26px;
-    margin-top: 5px;
-  }
-  .icon21{
-        display: flex;
-        margin-top: 50px;
-  }
-  .this1{
-    margin-left: 500px;
-    color: white;
-    font-size: 10px;
-    margin-top: 80px;
-  }
-  .bottom1:hover{
-    border-bottom: 3px solid rgb(245, 6, 6) ;
-    
-  }
-  .top_foter1{
-    margin-top: 600px;
-  } */
-
-
-
 
   .foter_box611 {
     width: 100%;
     height: 50px;
     border: 1px solid black;
-    margin-top: 380px;
-    background-color: rgb(34, 34, 79);
+    margin-top: 480px;
+    background-color:#3F0071;
   }
   
   .foter_box71 {
     width: 100%;
     height: 550px;
     border: 1px solid black;
-    background-color: rgb(63, 15, 105);
+    background-color: #000000;
   }
   
   .foter_back11 {
     margin-left: 800px;
-    margin-top: 30px;
+
     color: white;
-    padding-top: 10px;
+    /* padding-top: ; */
   }
-  
+ 
   .foter_aboutus1 {
     margin-left: 300px;
     color: white;
@@ -126,7 +59,7 @@
   }
   
   .foter_this1 {
-    margin-left: 500px;
+    margin-left: 600px;
     color: white;
     font-size: 10px;
     margin-top: 80px;

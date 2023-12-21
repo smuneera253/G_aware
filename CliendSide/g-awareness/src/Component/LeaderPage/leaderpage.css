@@ -18,7 +18,7 @@
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       background-color: rgb(255, 255, 255);
       border-radius: 10px;
-      border-left: 7px solid rgb(128, 4, 0);
+      border-left: 4px solid #0b0b0b;
       cursor: pointer;
       /* position: fixed; */
   
@@ -58,7 +58,7 @@
   .pmcolor:hover{
     /* width: 250px;
     height: 30px; */
-    background-color: rgba(77, 2, 2, 0.787);
+    background-color: #610094;
     color: rgb(212, 209, 209);
 
   }
@@ -71,7 +71,7 @@
     margin-right: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 10px;
-    border-left:7px solid rgb(108, 14, 4);;
+    border-left:4px solid #171617;
     display: flex;
     flex-wrap: wrap;
    
@@ -99,7 +99,7 @@
     height: 400px;
     /* border: 1px solid black; */
     margin-top: 150px;
-    background-color: rgb(202, 2, 253);
+    background-color: #8307c6;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     
   }
@@ -185,7 +185,7 @@
     margin-top: 10px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-   border-bottom: 10px solid rgb(125, 2, 109);
+   border-bottom: 10px solid rgb(18, 17, 16);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    
   }
@@ -205,23 +205,23 @@
     margin-top: 15px;
   }
   .color:hover{
-    background-color: rgb(195, 2, 244);
-    color: rgb(255, 253, 253);
+    /* background-color: rgb(195, 2, 244); */
+    /* color: rgb(255, 253, 253); */
   }
   .btn{
     width: 80px;
     height: 40px;
     margin-top: 70px;
     margin-right: 30px;
-    border-radius: 30px;
-    /* background-color: rgb(1, 1, 1);
-    color: white; */
+    border-radius: 20px;
+     background-color :#610094;
+    color: white; 
     font-size: 15px;
     cursor: pointer;
     /* transition: all 2s; */
   }
   .colorbtn:hover{
-    background-color: rgb(1, 1, 1);
+    background-color: black;
     color: white;
     /* border-radius: 20px 0; */
     transition: all 1s;
@@ -276,7 +276,7 @@
   margin-top: 25px;
   margin-left: 45px;
   background-color: rgb(253, 253, 253);
-  box-shadow: 0 10px 16px rgba(27, 58, 184, 0.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-top-right-radius: 150px;
   border-bottom-left-radius: 150px;
 
@@ -305,7 +305,7 @@
   border-radius: 20px;
   margin-left: 110px;
   margin-top: 20px;
-  background-color: rgb(192, 97, 226) ;
+  background-color: #610094 ;
   color: white;
   cursor: pointer;
 }
@@ -313,12 +313,12 @@
 .btnquite:hover{
   background-color: black;
   color: white;
-  transition: all 1s;
-  border-radius: 0 40px ;
+  /* transition: all 1s;
+  border-radius: 0 40px ; */
 }
-.color1:hover{
+/* .color1:hover{
   background-color: rgb(199, 249, 1);
-}
+} */
 .gift{
   margin-top: 10px;
   width: 170px;

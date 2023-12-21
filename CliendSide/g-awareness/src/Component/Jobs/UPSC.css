@@ -1,0 +1,156 @@
+.imge_upsc{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+.bon_ups{
+    width: 1290px;
+    /* height: 100px; */
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 300px;
+
+
+}
+.UPSC_MAinImg{
+    width: 100%;
+}
+.UPSC_MainBox{
+    margin-left: 18.5rem;
+    width: 80.5rem;
+    margin-top: 80px;
+    border: 1px solid black;
+    /* text-align: justify; */
+    /* background-image: url('http://www.pngmart.com/files/8/Lines-PNG-Background.png');
+    background-size: cover; */
+}
+.UPSC_MAinBoxHead{
+    margin-left: 1rem;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(152, 146, 146);
+    margin-right: 65rem;
+}
+.UPSC_paraghaph{
+    margin-left: 1rem;
+    text-align: justify;
+    width: 70rem;
+    line-height: 1.6;
+    font-family: serif;
+
+
+}
+.UPSC_MAinBoxHead2{
+    margin-left: 1rem;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(152, 146, 146);
+    margin-right: 55rem;
+}
+.UPSC_listBOX{
+    display: flex;
+    /* margin-left: 30px; */
+    /* border: 1px solid black; */
+}
+.UPSE_List{
+    font-family: serif;
+    line-height: 2.9;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    /* ma */
+
+}
+.UPSE_List2{
+    font-family: serif;
+    line-height: 2.9;
+    margin-top: 50px;
+    margin-left: 10rem;
+    width: 40rem;
+}
+.UPSCE_Duration{
+    margin-top: 50px;
+}
+.UPSC_MAinBoxHeading{
+    margin-left: 1rem;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(152, 146, 146);
+    margin-right: 61rem;
+}
+.UPSC_line{
+    margin-left: 20px;
+    font-family: serif;
+    line-height: 1.6;
+}
+.UPSE_List3{
+    font-family: serif;
+    line-height: 1.9;
+    margin-top: 50px;
+    margin-left: 3rem;
+    width: 40rem;
+
+}
+.UPSC_MAinBoxHead4{
+    margin-left: 1rem;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(152, 146, 146);
+    margin-right: 58rem;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    height: 80px;
+    margin-left: 100px;
+    font-family: serif;
+}
+
+th, td {
+    border: 1px solid #151515;
+    text-align: left;
+    /* padding: 8px; */
+    color: #151515;
+}
+
+th {
+    background-color: #2a0182;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+.UPSC_MAinBoxHead5{
+    margin-left:30px ;
+    margin-right: 58.11rem;
+    /* border-bottom: 1px solid rgb(79, 77, 77); */
+    margin-top: 30px;
+    font-family: serif;
+}
+.UPSC_importantpoint{
+    margin-left: 35px;
+    line-height: 1.90;
+    font-family: serif;
+    width: 70rem;
+}
+.UPSE_india{
+    margin-left: 35px;
+    font-family: serif;
+    font-size: 14px;
+    margin-top: -20px;
+}
+.UPSC_MAinBoxHead6{
+    margin-left:30px ;
+    margin-right: 38.11rem;
+    /* border-bottom: 1px solid rgb(79, 77, 77); */
+    margin-top: 30px;
+    font-family: serif;
+}
+.UPSCE_Candidates{
+    margin-left: 29px;
+    margin-top: -20px;
+}

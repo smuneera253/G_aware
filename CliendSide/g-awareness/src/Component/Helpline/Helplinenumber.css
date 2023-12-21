@@ -1,0 +1,187 @@
+.Help_main{
+    width: 100%;
+    /* height: 700px; */
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+}
+.Help_mainsmallbox{
+    width: 350px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-left: 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-left: 3px solid rgb(81, 0, 128);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ 
+}
+.Help_mainbigbox{
+    width: 74%;
+    /* height: 600px; */
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border-left: 3px solid rgb(81, 0, 128);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Help_image{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Help_heding{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    font-family: serif;
+
+}
+.Help_icon{
+    display: flex;
+  
+}
+.Help_mapingdata{
+    margin-left: 100px;
+    margin-top: 40px;
+   
+
+    /* background-image: url("../../../resources/arrow_right.png"); */
+}
+.Help_text{
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 40px;
+    line-height: 1.9;
+    font-family: serif;
+    font-size: 17px;
+}
+.Help_arrow{
+    width: 40px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+.Help_arrowFlex{
+    display: flex;
+    border: 1px solid black;
+    margin-right: 150px;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background-color:#610094;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.Helparrow_hover:hover{
+    background-color: black;
+
+}
+.Help_itemHelpText{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Help_bakendDataMain {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: margin-top 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transition property for margin-top, background-color, and color */
+}
+
+.Help_bakendDataMain:hover {
+    margin-top: 15px; 
+    border-bottom: 5px solid rgb(62, 0, 128);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to top, rgb(232, 226, 226) 0%, rgb(255, 255, 255) 100%);
+}
+
+
+.Help_bakendImage{
+    width: 300px;
+    height: 230px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 250px;
+    /* border-bottom-right-radius: 250px; */
+
+    
+
+}
+.Help_emergency{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+.Help_contact{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: bolder;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.Help_mainbigbox {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.Help_bakendDataMain {
+    flex: 300px;
+    margin: 30px;
+}
+
+.Help_bakendDataMain img {
+    width: 100%;
+    height: auto;
+}
+
+.Help_bakendDataMain:hover {
+    transform: translate(-30px, -30px);
+}
+
+.Help_emergency,
+.Help_contact {
+    font-weight: bold;
+}
+
+/* Add more styles as needed */
+
+/* Add the following animation style if you want a smooth transition *
+.Help_bakendDataMain {
+    transition: transform 0.25s ease;
+}
+ */

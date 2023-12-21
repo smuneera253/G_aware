@@ -1,0 +1,75 @@
+.agriculture_img{
+    width: 100%;
+    height: 500px;
+}
+.agriculture_box{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-left: 10rem;
+    background-color: white;
+    transform: translateY(-100px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.Agriculture_basic{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: serif;
+    border-bottom: 1px solid rgb(170, 168, 168);
+    margin-right: 33px;
+}
+.Agriculture_info{
+    font-family: serif;
+}
+.Agriculture_side{
+    display: flex;
+}
+.Agriculture_heading{
+    margin-left: 25rem;
+    margin-top: 4rem;
+    font-family: serif;
+    border-bottom: 1px solid rgb(175, 173, 173);
+    margin-right: 11rem;
+}
+.agriculture_img2{
+    width: 900px;
+    height: 400px;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+.Agriculture_paragraph{
+    /* justify-content: center; */
+    text-align: justify;
+    width: 900px;
+    height: 250px;
+    margin-left: 20rem;
+    font-family: serif;
+    line-height: 1.6;
+    margin-top: 4px;
+}
+.Agriculture_heading2{
+    margin-left: 20rem;
+    font-family: serif;
+    margin-top: -20px;
+}
+.Agriculture_heading3{
+    margin-left: 20rem;
+    font-family: serif;
+    margin-top: -100px;
+}
+.Agriculture_point{
+    display: flex;
+    margin-left: 20rem;
+    font-family: serif;
+    margin-top: -120px;
+}
+.Agriculture_Challenges{
+    margin-left: 14rem;
+}
+.Agriculture_Environmental{
+    line-height: 1.6;
+}
+.Agriculture_list{
+    margin-left: 14rem;
+    line-height: 1.6;
+}

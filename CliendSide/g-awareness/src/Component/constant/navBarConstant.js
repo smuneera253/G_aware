@@ -46,26 +46,30 @@ export const NavItem = [
         link:"/govtPlans",
         text:"Government Plans"
     },
-    {
-        link:"/govtOfficeNo",
-        text:"Government Office Number"
-    },
     // {
-    //     link:"/tourPlace",
-    //     text:"Tourist Place"
+    //     link:"/govtOfficeNo",
+    //     text:"Government Office Number"
     // },
+    {
+        link:"/tourPlace",
+        text:"Tourist Place"
+    },
     {
         link:"/helpLineNo",
         text:"Help Line Numbers"
     },
+    // {
+    //     link: '/about',
+    //     abouttext: 'about',
+    //   },
 ]
 
-export const aboutlink = [
-    {
-      link: '/Aboutpage',
-      abouttext: 'about',
-    }
-  ];
+// export const aboutlink = [
+//     {
+//       link: '/about',
+//       abouttext: 'about',
+//     }
+//   ];
 
 
 
@@ -300,6 +304,127 @@ export const Govtplans = {
       answer: "Calculating the budget at the state or central government level involves a detailed process that typically follows these steps,Revenue Estimation,Expenditure Planning,Debt Management,Social Services Allocation,Defense and Security,Public Safety and Justice,Infrastructure Investment,Administration and General Services,Contingency Planning,Transfers and Grants,Budget Review and Approval,Implementation and Monitoring ",
     },
   ];
+
+
+ // Helipline numbers
+
+
+ export const HelipButton = {
+    HelipButtonData:[
+        {
+            helpApi:"http://localhost:8080/help",
+            helpText:"Clickhear"
+        }
+    ]
+ }
+
+
+
+ ///TOURIST DATA
+
+ 
+
+ export const TouristButton ={
+    TouristButtonData : [
+        {
+            touristApi:"http://localhost:8080/tour",
+            touristText:"Andhara Pradesh",
+        },
+        {
+            touristApi:"",
+            touristText:"Kernataka",
+        }
+        
+    ]
+ }
+
+
+//  human right question
+
+
+export const rightToEqualityAnswer = [
+    'Article 14 ensures equality before the law.',
+    'Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.',
+    'Article 16 guarantees equality of opportunity in matters of public employment.',
+    'Article 17 abolishes untouchability.',
+    'Article 18 abolishes titles except military and academic distinctions.',
+    'The right to equality means that everyone should be treated the same way and should have the same opportunities. It doesn\'t matter where someone comes from, what they believe, or how they look—everyone should be treated fairly. This right ensures that there should be no unfair discrimination, and all individuals have an equal chance to succeed in life. It\'s like saying, "We should all have the same basic rights and chances no matter who we are."',
+  ];
+
+
+
+
+  export const rightToFreadomAnswer = [
+    'Article 19 provides citizens with the right to freedom of speech and expression,',
+    'assembly, association, movement, residence, and profession',
+    'Article 20 protects a person against ex post facto laws.',
+    'Article 21 guarantees the right to life and personal liberty.',
+    'Article 22 provides protection against arrest and detention in certain cases.',
+    '',
+  ];
+
+  export const rightAgainstExploitationAnswer = [
+    'Article 23 prohibits traffic in human beings and forced labor.',
+    'Article 24 prohibits child labor.',
+    'The right against exploitation ensures that no person, especially children, is subjected to forced labor or exploitation.',
+  ];
+  export const rightToFreedomOfReligionAnswer = [
+    'Article 25 guarantees freedom of conscience and the right to freely profess, practice, and propagate religion.',
+    'Article 26 provides for the freedom to manage religious affairs.',
+    'Article 27 prohibits the use of state funds for religious purposes.',
+    'Article 28 deals with freedom as to attendance at religious instruction or religious worship in certain educational institutions.',
+    'The right to freedom of religion ensures that individuals have the freedom to follow and practice the religion of their choice.',
+  ];
+  export const culturalAndEducationalRightsAnswer = [
+    'Article 29 protects the interests of minorities by allowing them to conserve their language, script, or culture.',
+    'Article 30 provides the right of minorities to establish and administer educational institutions.',
+    'Cultural and educational rights aim to preserve the cultural identity and educational interests of minorities.',
+  ];
+
+  export const rightToConstitutionalRemediesAnswer = [
+    'Article 32 provides the right to move the Supreme Court for the enforcement of fundamental rights.',
+    'The right to constitutional remedies ensures that individuals can seek legal remedies if their fundamental rights are violated.',
+  ];
   
+  export const rightToEducationAnswer = [
+    'The Right to Education Act, enacted in 2009, is a significant step towards making education a fundamental right for children between the ages of 6 and 14.',
+    'It mandates free and compulsory education for this age group in India.',
+    'The goal is to provide an inclusive, equitable, and quality education system that prepares individuals for the demands of the modern world.',
+  ];
+
+
+
+//   fundamental duties
+
+
+export const fundamentalDuties=[
+    '1.To abide by the Constitution and respect its ideals and institutions, the National Flag, and the National Anthem.',
+    '2.To cherish and follow the noble ideals that inspired the national struggle for freedom.',
+    '3.To uphold and protect the sovereignty, unity, and integrity of India.',
+    '4.To defend the country and render national service when called upon to do so.',
+    '5.To promote harmony and the spirit of common brotherhood among all the people of India transcending religious, linguistic, and regional or sectional diversities. To renounce practices derogatory to the dignity of women.',
+    '6.To value and preserve the rich heritage of our composite culture.',
+    '7.To protect and improve the natural environment including forests, lakes, rivers, and wildlife, and to have compassion for living creatures.',
+    '8.To develop the scientific temper, humanism, and the spirit of inquiry and reform.',
+    '9.To safeguard public property and to abjure violence.',
+    '10.To strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavor and achievement.',
+]
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
 
 

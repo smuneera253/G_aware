@@ -42,13 +42,13 @@
      height: 300px;
      border: 1px solid black;
      
-     background-color: rgb(175, 4, 248);
+     background-color:#150050;
      margin-top: 40px;
      
   }
   .boxewhite{
     width: 80%;
-    height: 400px;
+    height: 370px;
     display: flex;
     background-color:white ;
     margin-left: 170px;
@@ -66,16 +66,21 @@
     height: 250px;
     border: 1px solid black;
     margin-top: 400px;
-    background-color: rgb(41, 41, 160);
+    background-color: #3F0071;
   }
-  .box4{
-    width: 80%;
-    height: 120%;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-radius: 10px;
-    box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+  
+    .box4 {
+      width: 80%;
+      height: 90%;
+      background-color: white;
+      margin-top: 80px;
+      margin-left: 200px;
+      border-radius: 10px;
+      /* box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2); */
+      /* overflow-x: hidden; Hide horizontal scrollbar */
+      /* overflow-x: scroll; Show vertical scrollbar */
+      /* scroll-behavior: smooth; */
+
 
     list-style-type: none;
     border-radius: 4px;
@@ -112,15 +117,16 @@
   .viewbtn{
     margin-left: 600px;
     margin-top: 105px;
-    background-color: rgb(236, 238, 185);
-    border-radius:25px;
+    background-color: #610094;
+    border-radius:10px;
     border: none;
-    color: black;
-    width: 200px;
-    height: 60px;
+    color: rgb(251, 248, 248);
+    width: 150px;
+    height: 50px;
     font-size: 15px;
   
   }
+  
   .color3:hover{
    background-color: white;
    border: 1px solid white;
@@ -210,6 +216,7 @@
     border: 1px solid black;
     margin-top: 380px;
     background-color: rgb(34, 34, 79);
+    color: white;
   }
   .box7{
     width: 100%;
@@ -275,25 +282,37 @@
     margin-left: 300px;
   }
   .mainttt{
-    width: 90%;
-    margin-left: 100px;
-    margin-top: 30px;
+    width: 55%;
+    margin-left: 300px;
+    margin-top: 10px;
+
+
+
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+      position: relative;
+      top: 0;
+      transition: top ease .5s;
   }
   
   .card {
     background-color: rgb(247, 249, 245);
     padding: 20px;
-    margin: 0 10px; /* 20px horizontal gap between cards */
+    /* margin: 0 10px; 20px horizontal gap between cards */
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
     width: 200px;
-    height: 280px;
+    height: 260px;
     border-radius: 20px;
     /* border-bottom-left-radius: 120px;
     border-top-right-radius: 120px; */
-    border-bottom: 7px solid rgb(143, 2, 143);
+    border-bottom: 7px solid #11011a;
+    margin-left: 20px;
   }
   
   .card-image {
@@ -314,25 +333,26 @@
     font-size: 16px;
     margin-top: 10px;
   }
-  
+/*   
   .card-button {
-    background-color: rgb(29, 29, 30);
+    background-color: #610094;
     color: white;
     border: none;
     padding: 7px 7px;
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
-  }
+  } */
   
   .slick-center .card {
-    background-color: rgb(211, 156, 250); /* Style for the active centered card */
-    /* color: white; */
+    background-color:#610094; /* Style for the active centered card */
+    color: white;
   }
   .Basic-Aware{
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
+    color: white;
 
   }
   
@@ -351,7 +371,7 @@
     width: 80%;
     height: 330px;
     margin-left: 200px;
-    background-color: white;
+    background-color: rgb(247, 242, 242);
     box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
     border-radius: 5px;
   
@@ -395,7 +415,7 @@
   .customDot-container {
     text-align: center;
     /* padding: 20px; */
-    background: #ab04e3;
+    background: #8602b2;
     width: 80%;
     height: 50px;
     margin-left: 200px;
@@ -437,7 +457,7 @@
     color: rgb(10, 90, 239);
   }
   .box55{
-    background-color: #ab04e3;
+    background-color: #76019d;
     width: 100%;
     height: 300px;
     margin-top: 500px;
@@ -450,3 +470,16 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 27px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  

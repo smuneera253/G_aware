@@ -1,0 +1,105 @@
+.beid_image{
+    width: 100%;
+    height: 700px;
+}
+.beid_image {
+    max-width: 100%;
+    height:670px;
+    margin-bottom: 60px; /* Adjust the margin as needed */
+  }
+
+  .content-below {
+    font-family: Arial, sans-serif;
+    font-size: 76px;
+    color: #0a0a0a;
+    transform: translateY(-600px);
+    margin-left: 10rem;
+  }
+  .beid_marque{
+    height: 40px;
+    background-color: #3F0071;
+    color: white;
+  }
+  .beid_marquee{
+    padding: 10px;
+  }
+  .beid_whitebox{
+    width: 380px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-left: 80rem;
+    transform: translateY(-1960px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+    background-color: rgb(253, 249, 249);
+ }
+ .beid_smallbox{
+    /* display: flex; */
+    width: 70rem;
+    /* height: 90rem; */
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    transform: translateY(-100px);
+    font-family: serif;
+
+ }
+ .beid_paragaph{
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 1.9;
+
+ }
+ 
+ .beid_Bachelor{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(130, 127, 127);
+    margin-right: 38rem;
+ }
+ .beid_youtub{
+    margin-top: 30px;
+    margin-left: 30px;
+ }
+ .beid_teacher{
+    width: 800px;
+    height: 500px;
+ }
+ .beid_Bachelor1{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(130, 127, 127);
+    margin-right: 24rem;
+ }
+ .beid_full{
+    margin-left: 30px;
+    padding-top: 40px;
+    font-family: serif;
+    /* margin-top: 20px; */
+ }
+ .beid_underlist {
+    list-style-type: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin-right: 60px;
+    margin-left: 50px;
+    text-align: justify;
+    margin-top: 40px;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    color: #0066cc; /* Change the color as desired */
+  }
+  .beid_syllabus{
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 1.6;
+    margin-top: 30px;
+
+  }
