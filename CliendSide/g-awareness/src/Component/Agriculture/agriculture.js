@@ -20,10 +20,14 @@ function Agriculture(){
                             <p className="Agriculture_paragraph">The agricultural sector plays a crucial role in India’s economic growth and development. Apart from contributing to the country’s GDP, it also provides raw materials for several industries, including food processing, textiles, and paper. The sector also helps in generating foreign exchange by exporting various agricultural products, such as tea, coffee, and spices.</p>
                             <h1 className="Agriculture_heading3">Agricultural Practices in India</h1>
                             <p className="Agriculture_paragraph">India has a rich tradition of various agricultural practices, such as mixed farming, crop rotation, and intercropping. The country has also made significant strides in adopting modern agricultural practices, including precision agriculture, use of genetically modified crops, and mechanization.Despite the progress, the sector still faces several challenges that need to be addressed to ensure sustainable growth. Factors such as climate change, water scarcity, and market fluctuations continue to affect Indian agriculture and require innovative solutions.</p>
+                            
                             <h1 className="Agriculture_heading3">Organic Farming</h1>
+                            <img src="https://miro.medium.com/max/2160/1*NGXeDOP9Ww2PGQDAcyhhdg.jpeg" className="agri_Organic"/>
+
                             <p className="Agriculture_paragraph">Organic farming is a production system that relies on using natural methods to grow crops without the use of synthetic chemicals. In India, organic farming has been gaining popularity due to the growing demand for organic produce. Many farmers in India have converted to organic farming to improve soil fertility and reduce environmental pollution. Organic farming also promotes the use of traditional farming practices and preserving biodiversity.</p>
                             <div className="Agriculture_point">
                                 <div >
+                                    
                                     <h3>Advantages of Organic Farming	</h3>
                                     <ul className="Agriculture_Environmental">
                                         <li>Environmental sustainability</li>
@@ -37,7 +41,24 @@ function Agriculture(){
                                     <li className="Agriculture_list">Increased labor requirements</li>
                                     <li className="Agriculture_list">Limited market for organic produce</li>
                                 </div>
+                                
                             </div>
+                            <div className="agri_textandimg">
+                            <h4 className="agri_more">More information</h4>
+                            <img src="https://static.thenounproject.com/png/634848-200.png" className="agri_textarrow"/>
+
+                            </div>
+                            <div className="agri_morevedio">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/qkqtcXuogu4"
+                                    title="YouTube Video"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                                </div>
 
                         </div>
 
@@ -50,15 +71,15 @@ function Agriculture(){
 
                             <h3 className="Agriculture_basic">Agriculture basic information</h3>
                             <div>
-                                <ul>
+                                <ul >
                                     <li>
-                                        <p className="Agriculture_info">What  is agriculture..?</p>
-                                        <li><p className="Agriculture_info">The Importance of Agriculture in India</p></li>
-                                        <li><p className="Agriculture_info">Agricultural Practices in India</p></li>
-                                        <li><p className="Agriculture_info">Key Factors Affecting Indian Agriculture</p></li>
-                                        <li><p className="Agriculture_info">Major Agricultural Crops in India</p></li>
-                                        <li><p className="Agriculture_info">Organic Farming</p></li>
-                                        <li><p className="Agriculture_info">Use of Modern Technologies</p></li>
+                                        <li className="Agriculture_info"><p >What  is agriculture..?</p></li>
+                                        <li className="Agriculture_info"><p >The Importance of Agriculture in India</p></li>
+                                        <li className="Agriculture_info"><p >Agricultural Practices in India</p></li>
+                                        <li  className="Agriculture_info"><p>Key Factors Affecting Indian Agriculture</p></li>
+                                        <li className="Agriculture_info"><p >Major Agricultural Crops in India</p></li>
+                                        <li  className="Agriculture_info"><p>Organic Farming</p></li>
+                                        <li  className="Agriculture_info"><p>Use of Modern Technologies</p></li>
                                     </li>
                                 </ul>
                             </div>

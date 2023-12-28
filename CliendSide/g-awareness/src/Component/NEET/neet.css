@@ -4,19 +4,19 @@
 }
 .Neet_marquee{
     height: 40px;
-    background-color:#000000;
-    color: white;
+    /* background-color:#000000; */
+    color: rgb(0, 0, 0);
 }
 .Neet_line{
     margin-top: 10px;
 
 }
 .Neet_whitebox{
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 430px;
     /* border: 1px solid  black; */
     background-color: white;
-    margin-left: 6rem;
+    margin-left: 4rem;
     transform: translateY(-140px);
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -25,9 +25,9 @@
 }
 .Neet_smallbox{
     margin-left: 6rem;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 80rem;
-    border: 1px solid black;
+    border: 1px solid rgb(185, 182, 182);
     font-family: serif;
     line-height: 1.6;
 }
@@ -39,7 +39,7 @@
     font-size: 25px;
     border-bottom: 1px solid rgb(126, 124, 124);
 }
-.Neet_Neet1{
+#Neet_Neet1{
     margin-left: 60px;
     margin-top: 20px;
     font-family: serif;
@@ -53,6 +53,7 @@
     line-height: 1.6;
     font-size: 16px;
     text-align: justify;
+    margin-right: 60px;
 }
 .Neet_logotext{
     display: flex;
@@ -78,10 +79,11 @@
     padding: 8px;
   }
 
-  th {
+  .Neet_tableheader{
     background-color: #3F0071;
+    color: white;
   }
-  .Neet_Paragh1{
+  #Neet_Paragh1{
     margin-left: 60px;
     margin-top: 5px;
     font-family: serif;
@@ -95,7 +97,7 @@
     margin-top: 40px;
     font-family: serif;
     border-bottom: 1px solid rgb(154, 150, 150);
-    margin-right: 10.5rem;
+    margin-right: 13.5rem;
   }
   .Neet_oderList{
     margin-left: 30px;
@@ -109,4 +111,24 @@
   .Neet_tables{
     margin-left: 62px;
   }
-  
+  .neet_vedio{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .neetexam_icon{
+    width: 40px;
+    height: 34px;
+    margin-top: 14px;
+  }
+  .neet_iconskip{
+    display: flex;
+    margin-left: 30px;
+  }
+  .neetskpi_content{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .Moreinfo_neet{
+    margin-left: 60px;
+    font-family: serif;
+  }

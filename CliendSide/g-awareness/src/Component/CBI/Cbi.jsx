@@ -41,14 +41,14 @@ function CbiInformation(){
                                             </ul>
                                         </li>
                                         </ul>
-                                        <h4 className="Cbi_Question2">CBI Officer Requirements</h4>
+                                        <h4 id="Cbi_Question2">CBI Officer Requirements</h4>
                                         <p className="Cbi_paragraph">There are additional physical eligibility criteria that candidates must fulfil. Tabulated below are the physical eligibility criteria for men and women respectively.</p>
                                         <table>
                                                 <thead>
                                                     <tr>
-                                                    <th>Feature</th>
-                                                    <th>Men</th>
-                                                    <th>Women</th>
+                                                    <th className="CBI_tableheader">Feature</th>
+                                                    <th className="CBI_tableheader">Men</th>
+                                                    <th className="CBI_tableheader">Women</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -154,6 +154,11 @@ function CbiInformation(){
                                 <li>CBI Officer Salary</li>
                                
                             </ul>
+                            <div className="CBI_iconskip">
+                      <img src="https://webstockreview.net/images/arrow-png-images-3.png" className="CBIexam_icon"/>
+                      <a  className="cbiexamskpi_content"href="#Cbi_Question2">Skip to main Content</a>
+
+                  </div>
 
                     </div>
                 </div>

@@ -9,6 +9,7 @@ function Railways(){
                     <marquee className="Railway_Line">On this website, you will find details about the RRB (Railway Recruitment Board) exam syllabus and all related information.This revised sentence specifies that the website provides in-depth details not only about the RRB exam syllabus but also offers information on the exam pattern. It aims to convey a more comprehensive understanding of what the website has to offer regarding RRB exam preparation.</marquee>
                     <img src="https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-1592207921.jpg" className="Railway_image"/>
                     <div className="Railway_mainWhitebox">
+                        <h4 className="Railway_whiteboxwhitehead">Basic Information About Railway Exam</h4>
                     <ul className="Railway_whitelist">
                             <li>The comprehensive RRB syllabus can be accessed on the official website, providing detailed information for prospective candidates.</li>
                             <li>The RRB NTPC exam pattern is available on the official website, offering a detailed overview for aspirants preparing for the examination.</li>
@@ -17,8 +18,14 @@ function Railways(){
                             <li>RRB JE Exam Pattern</li>
                         {/* <!-- <li>RRB ALP Exam Pattern</li> --> */}
                     </ul>
+                    <div className="Railway_Skiptomain">
+                    <a  className=""href="#Railway_table">Skip to main Content</a>
 
                     </div>
+
+
+                    </div>
+
                 </div>
                
             </div>
@@ -31,28 +38,28 @@ function Railways(){
                     <div className="Railaway_textbox">
                         <p className="Railaway_text">RRB Syllabus & Exam Pattern – Candidates writing the various exams conducted by the Railway Recruitment Board need to carefully go through both the RRB exam pattern and syllabus to increase their chances in clearing the exams.The RRB conducts recruitment for various posts to different departments of the Indian Railways. To know more about other RRB Exams, visit the linked article.This article will discuss the RRB exam syllabus of the following Exams:</p>
                         <ol className="Railway_list">
-                            <li>RRB Non-Technical Popular Categories (NTPC) Syllabus</li>
-                            <li>RRB Junior Engineer (JE) Syllabus</li>
-                            <li>RRB Assistant Loco Pilot (ALP) Syllabus</li>
-                            <li>RRB Group D Syllabus (RRC Level 1 Syllabus)</li>
+                            <li className="Railway_list">RRB Non-Technical Popular Categories (NTPC) Syllabus</li>
+                            <li className="Railway_list">RRB Junior Engineer (JE) Syllabus</li>
+                            <li className="Railway_list">RRB Assistant Loco Pilot (ALP) Syllabus</li>
+                            <li className="Railway_list">RRB Group D Syllabus (RRC Level 1 Syllabus)</li>
                         </ol>
                         <p>The RRB syllabus aims to identify candidates who possess not only physical fitness but also a well-rounded knowledge of the world. Below is the detailed syllabus for RRB exams, including Group D, NTPC, JE, and ALP. Candidates interested in any Railway exam should review the RRB eligibility criteria for relevant details. Additionally, certain topics in the railway syllabus are common to both RRB and bank exams; candidates may refer to the bank exam syllabus page for more information.</p>
                         <ol className="Railway_list">
-                                <li>First Stage of CBT</li>
-                                <li>Second Stage of CBT</li>
-                                <li>Typing Test (Skill Test)</li>
-                                <li>Document Verification</li>
-                                <li>Medical Examination</li>
-                                <li>Final Selection</li>
+                                <li className="Railway_list">First Stage of CBT</li>
+                                <li className="Railway_list">Second Stage of CBT</li>
+                                <li className="Railway_list">Typing Test (Skill Test)</li>
+                                <li className="Railway_list">Document Verification</li>
+                                <li className="Railway_list">Medical Examination</li>
+                                <li className="Railway_list">Final Selection</li>
                         </ol>
 
                         <h4>The RRB NTPC exam pattern for the written examination is given below in brief:</h4>
  </div>
-                        <table border="1" cellspacing="0" cellpadding="9" className="Railway_table">
+                        <table border="1" cellspacing="0" cellpadding="9" id="Railway_table">
                                 <tr>
-                                    <th>RRB Exam</th>
-                                    <th>Subjects</th>
-                                    <th>Marks</th>
+                                    <th className="railway_heading">RRB Exam</th>
+                                    <th className="railway_heading">Subjects</th>
+                                    <th className="railway_heading">Marks</th>
                                 </tr>
                                 <tr>
                                     <td rowspan="3">RRB NTPC CBT – 1</td>
@@ -87,9 +94,9 @@ function Railways(){
                                         <table>
                                         <thead>
                                             <tr>
-                                            <th>Quantitative Aptitude</th>
-                                            <th>Reasoning Ability</th>
-                                            <th>General Awareness</th>
+                                            <th className="railway_heading">Quantitative Aptitude</th>
+                                            <th className="railway_heading">Reasoning Ability</th>
+                                            <th className="railway_heading">General Awareness</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -191,9 +198,9 @@ function Railways(){
                                             <p >RRB Group D exam is conducted by RRB to recruit eligible candidates for various posts like Helper/Assistant Pointsman, Track Maintainer Grade-IV, in Level 1 of 7th CPC Pay Matrix in various departments of Indian Railways.</p>
                                             <p>The RRB Group D selection process comprises three stages:</p>
                                             <ol className="Railway_list">
-                                                <li>RRB Group D (CBT) Computer Based Test</li>
-                                                <li>RRB Group D (PET) Physical Efficiency Test</li>
-                                                <li>RRB Group D (DV) Document Verification</li>
+                                                <li className="Railway_list">RRB Group D (CBT) Computer Based Test</li>
+                                                <li className="Railway_list">RRB Group D (PET) Physical Efficiency Test</li>
+                                                <li className="Railway_list">RRB Group D (DV) Document Verification</li>
                                             </ol>
 
                                                                                         <div class="exam-table-container">
@@ -201,9 +208,9 @@ function Railways(){
                                                 <table class="exam-table">
                                                 <thead>
                                                     <tr>
-                                                    <th>Sections</th>
-                                                    <th>Number of Questions</th>
-                                                    <th>Time Duration</th>
+                                                    <th className="railway_heading">Sections</th>
+                                                    <th className="railway_heading">Number of Questions</th>
+                                                    <th className="railway_heading">Time Duration</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -232,17 +239,17 @@ function Railways(){
                                             </div>
                                             <h4>The RRB JE Exam Pattern comprises 4 stages:</h4>
                                             <ol>
-                                                <li>CBT Stage I</li>
-                                                <li>CBT Stage II</li>
-                                                <li>Document Verification/ Medical Examination</li>
-                                                <li>Final Selection</li>
+                                                <li className="Railway_list">CBT Stage I</li>
+                                                <li className="Railway_list">CBT Stage II</li>
+                                                <li className="Railway_list">Document Verification/ Medical Examination</li>
+                                                <li className="Railway_list">Final Selection</li>
                                             </ol>
                                             <table className="Railway_table4">
                                                 <thead>
                                                     <tr>
-                                                    <th>RRB JE Exam</th>
-                                                    <th>Subjects</th>
-                                                    <th>Marks</th>
+                                                    <th className="railway_heading">RRB JE Exam</th>
+                                                    <th className="railway_heading">Subjects</th>
+                                                    <th className="railway_heading">Marks</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -299,10 +306,10 @@ function Railways(){
                                                         <thead>
                                                             <tr>
                                                             {/* <th>RRB JE Syllabus for CBT-1</th> */}
-                                                            <th>Mathematics</th>
-                                                            <th>General Reasoning</th>
-                                                            <th>General Science</th>
-                                                            <th>General Awareness</th>
+                                                            <th className="railway_heading">Mathematics</th>
+                                                            <th className="railway_heading">General Reasoning</th>
+                                                            <th className="railway_heading">General Science</th>
+                                                            <th className="railway_heading">General Awareness</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>

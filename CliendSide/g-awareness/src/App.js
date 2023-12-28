@@ -9,6 +9,8 @@ import './App.css'
 // import BeidExam from './Component/BeidExam/beidExam';
 // import CricketGame from './Component/Cricket/Cricket';
 // import Army from './Component/Army/Army';
+// import QuietIndia from './Component/QuiteIndia/QuietIndia';
+// import Satyagrah from './Component/Satyagraha/Satyagrah';
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
           {/* <BeidExam/> */}
           {/* <CricketGame/> */}
           {/* <Army/> */}
+          {/* <QuietIndia/> */}
+          {/* <Satyagrah/> */}
     </div>
   );
 }

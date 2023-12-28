@@ -4,6 +4,7 @@ import { learderCatogories, marqueedata } from "../constant/navBarConstant";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllleader } from "../../redux/ProductRedux/action";
 import Pagenation from "../pagenation";
+import { Link } from "react-router-dom";
 
 
 // import { Navbar } from "../Navbar/navbar";
@@ -104,7 +105,7 @@ function Leader({ LeaderData }) {
                                                 <p className="pmName">ending_date</p>
                                                 <div className="pmName">{ending_date}</div>
 
-                                                <a href="https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India"><button className="btn colorbtn">view all</button></a>
+                                                {/* <a href="https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India"><button className="btn colorbtn">view all</button></a> */}
                                             </div>
 
                                         </div>
@@ -131,8 +132,8 @@ function Leader({ LeaderData }) {
             </div>
 
             <div className="MAIN4">
-                <b><p className="import">important plans</p></b>
-                <p className="import1">The prasident of collaborate others and making the plans </p>
+                <b><p className="import_head">important plans</p></b>
+                <p className="import1_head3">The prasident of collaborate others and making the plans </p>
                
                 <div className="MAINbox6 ">
                     <div className="plan1 ">
@@ -140,20 +141,44 @@ function Leader({ LeaderData }) {
 
                             <img src="resources/Quiteindia.jpg" className="photo" />
                             <p className="move">Quit india movement</p>
-                            <a href="https://en.wikipedia.org/wiki/Quit_India_Movement"><button className="allbox btnquite">click me</button></a>
+                            {/* <a href="https://en.wikipedia.org/wiki/Quit_India_Movement"><button className="allbox btnquite">click me</button></a> */}
+
+
+                            <Link to="/quit">
+                                    <button className="allbox btnquite">click me</button>
+
+                            </Link>
 
                         </div>
 
                         <div className="plan3 color1">
                             <img src="resources/nehru.png" className="photo" />
                             <p className="move">Satyagraha</p>
-                            <a href="https://en.wikipedia.org/wiki/Satyagraha"><button className="allbox btnquite">click me</button></a>
+                            {/* <a href="https://en.wikipedia.org/wiki/Satyagraha"><button className="allbox btnquite">click me</button></a> */}
+
+
+                            <Link to='/satya'>
+                            <button className="allbox btnquite">click me</button>
+                            </Link>
+
+           
+
+
+{/* <Link */}
+
+
                         </div>
 
                         <div className="plan3 color1">
                             <img src="resources/freedom1.webp" className="photo" />
                             <p className="move">Freedom fighters</p>
-                            <a href="https://testbook.com/ias-preparation/freedom-fighters-of-india"><button className="allbox btnquite">click me</button></a>
+                            {/* <a href="https://testbook.com/ias-preparation/freedom-fighters-of-india"><button className="allbox btnquite">click me</button></a> */}
+
+                            <Link to='/fighet'>
+                            <button className="allbox btnquite">click me</button>
+                            </Link>
+
+
                         </div>
 
                         <div className="plan3 color1">

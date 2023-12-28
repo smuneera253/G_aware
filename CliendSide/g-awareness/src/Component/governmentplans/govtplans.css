@@ -51,9 +51,9 @@
   }
   
   .main14{
-    width: 99%;
+    width: 60%;
     height: 220px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 10px;
     /* margin-left: 20px; */
     border-radius: 5px;
@@ -120,15 +120,16 @@
 
    .plan_box1 {
     flex: 1;
-    min-width: 47%; 
-    max-width: 47%; 
-    height: 280px;
-    border: 1px solid black;
+    min-width: 30%; 
+    max-width: 30%; 
+    height: 600px;
+    /* border: 1px solid black; */
     margin-top: 30px;
     border-bottom: 9px solid #610094;
     /* display: flex; */
     margin-left: 20px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   
 }
 .planeName{
@@ -156,7 +157,7 @@
   margin-left: 20px;
 /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 font-optical-sizing: 90px;
-margin-top: 30px;
+margin-top: 20px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 line-height: 1.6;
 }
@@ -241,8 +242,8 @@ line-height: 1.6;
   transition: .3s ease-in-out;
 }
 .plans_image{
-  width: 200px;
-  height: 100px;
+  width: 412px;
+  height: 200px;
 }
 .inset {
   max-width: 50%;
@@ -390,7 +391,7 @@ line-height: 1.6;
   /* margin-left: 800px; */
   padding-top: 30px;
   width: 100%;
-  height: 550px;
+  height: 500px;
   display: flex;
 
 

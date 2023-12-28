@@ -31,7 +31,10 @@ const divStyleUPSC = {
     }
   ];
     return(
+
+
         <div>
+
             {/* <div className="bon_ups"> */}
 {/*             
             <Slide >
@@ -44,6 +47,40 @@ const divStyleUPSC = {
             <img src="https://i.pinimg.com/originals/47/f8/c4/47f8c4fac4e3528213547699f5a5e406.png" className="UPSC_MAinImg"/>
       
               {/* </div> */}
+
+
+              <div className="Upsc_mainWhiteBox">
+                <h4 className="Upsc_whiteboxheading1">Basic Information About UPSC Exam</h4>
+
+                <div className="whitebox_upsclist">
+                    <ul className="upsc_listboxwhite1">
+                      <li> General Studies Paper-I Syllabus</li>
+                      <li> General Studies Paper-II Syllabus</li>
+                      <li>UPSC IAS Main Exam Pattern & Syllabus</li>
+                      <li>Important Points</li>
+                      <li>Indian Languages</li>
+                      <li>II.Paper-I: Essay</li>
+                      <li>III. Paper-II: General Studies-I</li>
+                    </ul>
+
+
+                    <ul className="upsc_listboxwhite2">
+                      <li>IV. Paper-III: General Studies-II</li>
+                      <li>V. Paper-IV: General Studies-III</li>
+                      <li>UPSC IAS Main Exam Pattern & Syllabus</li>
+                      <li>Important Points</li>
+                      <li>Indian Languages</li>
+                      <li>II.Paper-I: Essay</li>
+                      <li>III. Paper-II: General Studies-I</li>
+                    </ul>
+                </div>
+                <div className="skiMainContent">
+                <a  href="#UPSC_MAinBoxHead4">Skip to main Content</a>
+
+                </div>
+
+                
+              </div>
               <div className="UPSC_MainBox">
                     <h1 className="UPSC_MAinBoxHead">UPSC Exam Sylabus</h1>
                     <p className="UPSC_paraghaph">The UPSC syllabus is designed to assess candidates' knowledge, aptitude, and analytical abilities, and it comprises two stages: the Preliminary Examination (Prelims) and the Main Examination (Mains), followed by an interview/personality test. The UPSC Syllabus for Prelims includes two compulsory papers: General Studies Paper-I and General Studies Paper-II (also known as the CSAT or Civil Services Aptitude Test). These papers cover a wide range of subjects, including history, geography, economics, polity, environment, science, and current affairs.</p>
@@ -71,7 +108,7 @@ const divStyleUPSC = {
                     <div>
                         <h1 className="UPSC_MAinBoxHeading">1. General Studies Paper-I Syllabus</h1>
                         <p className="UPSC_line">It has 100 questions broadly covering the following topics, carrying a maximum of 200 marks to be solved in 2 hours.</p>
-                        <ul className="UPSE_List3">
+                        <ul id="UPSE_List3">
                           <li>Current events of National & International importance.</li>
                           <li>History of India & Indian National Movement.</li>
                           <li>Indian & World Geography – Physical, Social, Economic Geography of India & the World.</li>
@@ -97,12 +134,12 @@ const divStyleUPSC = {
                       <p className="UPSC_line">It is mandatory for a candidate to appear in both the Papers of IAS Prelim Exam for the purpose of evaluation.</p>
                     </div>
                     <div>
-                      <h1  className="UPSC_MAinBoxHead4">UPSC IAS Main Exam Pattern & Syllabus</h1>
+                      <h1  id="UPSC_MAinBoxHead4">UPSC IAS Main Exam Pattern & Syllabus</h1>
                       <p className="UPSC_line">Civil Services Main Examination consists of written examination and interview (personality test).</p>
                       <p className="UPSC_line">Civil Services Main Examination consists of following papers divided into 2 categories – qualifying & papers to be counted for merit.</p>
                     </div>
 
-                    <div>
+                    <div id="upsc_table1">
                         <table>
                             <tr>
                               <th className="Upsce_Header">Qualifying Papers</th>
@@ -173,7 +210,7 @@ const divStyleUPSC = {
                     </div>
                     <div className="UPSC_importantpoint">
                         <h3 className="UPSC_MAinBoxHead5">Important Points:</h3>
-                        <ul>
+                        <ul className="UPSE_List">
                           <li>The papers on Indian languages and English (Paper A and paper B) will be of qualifying nature and the marks obtained in these papers will not be counted for ranking.</li>
                           <li>The papers on Indian languages and English (Paper A and paper B) will be of Matriculation or equivalent standard.</li>
                           <li>The papers on Essay, General Studies and Optional Subject of only such candidates will be taken cognizance who attain 25% marks in ‘Indian Language’ and 25% in ‘English’ as minimum qualifying standards in these qualifying papers.</li>
@@ -187,7 +224,7 @@ const divStyleUPSC = {
 
                         </ul>
                         <h3 className="UPSC_MAinBoxHead5">Indian Languages:</h3>
-                        <ul>
+                        <ul className="UPSE_List">
                           <li>Comprehension of given passages.</li>
                           <li>Precise Writing.</li>
                           <li>Usage and Vocabulary.</li>
@@ -200,7 +237,7 @@ const divStyleUPSC = {
 
                         <h3 className="UPSC_MAinBoxHead6">III. Paper-II: General Studies-I</h3>
                         <h4 className="UPSE_india">Indian Heritage and Culture, History and Geography of the World and Society.</h4 >
-                          <ul>
+                          <ul className="UPSE_List">
                             <li>Indian Culture will cover the salient aspects of Art Forms, literature, and Architecture from ancient to modern times.</li>
                             <li>Modern Indian history from about the middle of the eighteenth century until the present - significant events, personalities, issues.</li>
                             <li>The Freedom Struggle — its various stages and important contributors/contributions from different parts of the country.</li>
@@ -218,7 +255,7 @@ const divStyleUPSC = {
                           <h2 className="UPSC_MAinBoxHead6">IV. Paper-III: General Studies-II</h2>
                           <h3 className="UPSE_india">Governance, Constitution, Polity, Social Justice and International relations.</h3>
 
-                         <ul>
+                         <ul className="UPSE_List">
                             <li>Indian Constitution:
                               <ul>
                                 <li>Historical underpinnings, evolution, features, amendments, significant provisions, and basic structure.</li>
@@ -232,7 +269,7 @@ const divStyleUPSC = {
                             <li>Comparison of the Indian constitutional scheme with that of other countries.</li>
 
                             <li>Parliament and State legislatures:
-                              <ul>
+                              <ul className="UPSE_List">
                                 <li>Structure, functioning, conduct of business, powers & privileges, and issues arising out of these.</li>
                               </ul>
                             </li>
@@ -274,139 +311,152 @@ const divStyleUPSC = {
                             <li>Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.</li>
 
                             <li>Important International institutions, agencies and fora - their structure, mandate.</li>
-                          </ul>
+                          </ul >
                           <h2 className="UPSC_MAinBoxHead6">V. Paper-IV: General Studies-III</h2>
                           <h3  className="UPSE_india">Technology, Economic Development, Bio diversity, Environment, Security and Disaster Management</h3>
-                          <ul>
-  <li>Indian Economy and issues relating to planning, mobilization of resources, growth, development, and employment.</li>
+                          <ul className="UPSE_List">
+                                  <li>Indian Economy and issues relating to planning, mobilization of resources, growth, development, and employment.</li>
 
-  <li>Inclusive growth and issues arising from it.</li>
+                                  <li>Inclusive growth and issues arising from it.</li>
 
-  <li>Government Budgeting.</li>
+                                  <li>Government Budgeting.</li>
 
-  <li>Major crops - cropping patterns in various parts of the country.</li>
-  
-  <li>Different types of irrigation and irrigation systems.</li>
-  
-  <li>Storage, transport, and marketing of agricultural produce and issues and related constraints.</li>
-  
-  <li>E-technology in the aid of farmers.</li>
+                                  <li>Major crops - cropping patterns in various parts of the country.</li>
+                                  
+                                  <li>Different types of irrigation and irrigation systems.</li>
+                                  
+                                  <li>Storage, transport, and marketing of agricultural produce and issues and related constraints.</li>
+                                  
+                                  <li>E-technology in the aid of farmers.</li>
 
-  <li>Issues related to direct and indirect farm subsidies and minimum support prices.</li>
-  
-  <li>Public Distribution System - objectives, functioning, limitations, revamping.</li>
-  
-  <li>Issues of buffer stocks and food security.</li>
-  
-  <li>Technology missions.</li>
-  
-  <li>Economics of animal-rearing.</li>
+                                  <li>Issues related to direct and indirect farm subsidies and minimum support prices.</li>
+                                  
+                                  <li>Public Distribution System - objectives, functioning, limitations, revamping.</li>
+                                  
+                                  <li>Issues of buffer stocks and food security.</li>
+                                  
+                                  <li>Technology missions.</li>
+                                  
+                                  <li>Economics of animal-rearing.</li>
 
-  <li>Food processing and related industries in India - scope and significance.</li>
-  
-  <li>Location, upstream and downstream requirements, supply chain management.</li>
+                                  <li>Food processing and related industries in India - scope and significance.</li>
+                                  
+                                  <li>Location, upstream and downstream requirements, supply chain management.</li>
 
-  <li>Land reforms in India.</li>
+                                  <li>Land reforms in India.</li>
 
-  <li>Effects of liberalization on the economy, changes in industrial policy, and their effects on industrial growth.</li>
+                                  <li>Effects of liberalization on the economy, changes in industrial policy, and their effects on industrial growth.</li>
 
-  <li>Infrastructure: Energy, Ports, Roads, Airports, Railways, etc.</li>
+                                  <li>Infrastructure: Energy, Ports, Roads, Airports, Railways, etc.</li>
 
-  <li>Investment models.</li>
+                                  <li>Investment models.</li>
 
-  <li>Science and Technology - developments and their applications and effects in everyday life.</li>
+                                  <li>Science and Technology - developments and their applications and effects in everyday life.</li>
 
-  <li>Achievements of Indians in science & technology; indigenization of technology and developing new technology.</li>
+                                  <li>Achievements of Indians in science & technology; indigenization of technology and developing new technology.</li>
 
-  <li>Awareness in the fields of IT, Space, Computers, robotics, Nano-technology, bio-technology and issues relating to intellectual property rights.</li>
+                                  <li>Awareness in the fields of IT, Space, Computers, robotics, Nano-technology, bio-technology and issues relating to intellectual property rights.</li>
 
-  <li>Conservation, environmental pollution, and degradation, environmental impact assessment.</li>
+                                  <li>Conservation, environmental pollution, and degradation, environmental impact assessment.</li>
 
-  <li>Disaster and disaster management.</li>
+                                  <li>Disaster and disaster management.</li>
 
-  <li>Linkages between development and spread of extremism.</li>
+                                  <li>Linkages between development and spread of extremism.</li>
 
-  <li>Role of external state and non-state actors in creating challenges to internal security.</li>
+                                  <li>Role of external state and non-state actors in creating challenges to internal security.</li>
 
-  <li>Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.</li>
+                                  <li>Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.</li>
 
-  <li>Security challenges and their management in border areas - linkages of organized crime with terrorism.</li>
+                                  <li>Security challenges and their management in border areas - linkages of organized crime with terrorism.</li>
 
-  <li>Various Security forces and agencies and their mandate.</li>
-</ul>
-<h3 className="UPSC_MAinBoxHead6">VI. Paper-V: General Studies-IV</h3>
-<h3 className="UPSE_india">Ethics, Integrity and Aptitude</h3>
-<ul>
-  <li>Ethics and Human Interface:
-    <ul>
-      <li>Essence, determinants, and consequences of Ethics in human actions.</li>
-      <li>Dimensions of ethics.</li>
-      <li>Ethics in private and public relationships.</li>
-    </ul>
-  </li>
+                                  <li>Various Security forces and agencies and their mandate.</li>
+                                </ul>
+                                <h3 className="UPSC_MAinBoxHead6">VI. Paper-V: General Studies-IV</h3>
+                                <h3 className="UPSE_india">Ethics, Integrity and Aptitude</h3>
+                                <ul className="UPSE_List">
+                                  <li>Ethics and Human Interface:
+                                    <ul>
+                                      <li>Essence, determinants, and consequences of Ethics in human actions.</li>
+                                      <li>Dimensions of ethics.</li>
+                                      <li>Ethics in private and public relationships.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Human Values:
-    <ul>
-      <li>Lessons from the lives and teachings of great leaders, reformers, and administrators.</li>
-      <li>Role of family, society, and educational institutions in inculcating values.</li>
-    </ul>
-  </li>
+                                  <li>Human Values:
+                                    <ul className="UPSE_List">
+                                      <li>Lessons from the lives and teachings of great leaders, reformers, and administrators.</li>
+                                      <li>Role of family, society, and educational institutions in inculcating values.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Attitude:
-    <ul>
-      <li>Content, structure, function.</li>
-      <li>Influence and relation with thought and behavior.</li>
-      <li>Moral and political attitudes.</li>
-      <li>Social influence and persuasion.</li>
-    </ul>
-  </li>
+                                  <li>Attitude:
+                                    <ul className="UPSE_List">
+                                      <li>Content, structure, function.</li>
+                                      <li>Influence and relation with thought and behavior.</li>
+                                      <li>Moral and political attitudes.</li>
+                                      <li>Social influence and persuasion.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Aptitude and Foundational Values for Civil Service:
-    <ul>
-      <li>Integrity, impartiality, and non-partisanship.</li>
-      <li>Objectivity, dedication to public service.</li>
-      <li>Empathy, tolerance, and compassion towards the weaker sections.</li>
-    </ul>
-  </li>
+                                  <li>Aptitude and Foundational Values for Civil Service:
+                                    <ul>
+                                      <li>Integrity, impartiality, and non-partisanship.</li>
+                                      <li>Objectivity, dedication to public service.</li>
+                                      <li>Empathy, tolerance, and compassion towards the weaker sections.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Emotional Intelligence:
-    <ul>
-      <li>Concepts and their utilities.</li>
-      <li>Application in administration and governance.</li>
-    </ul>
-  </li>
+                                  <li>Emotional Intelligence:
+                                    <ul>
+                                      <li>Concepts and their utilities.</li>
+                                      <li>Application in administration and governance.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Contributions of Moral Thinkers and Philosophers:
-    <ul>
-      <li>From India and the world.</li>
-    </ul>
-  </li>
+                                  <li>Contributions of Moral Thinkers and Philosophers:
+                                    <ul>
+                                      <li>From India and the world.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Public/Civil Service Values and Ethics in Public Administration:
-    <ul>
-      <li>Status and problems.</li>
-      <li>Ethical concerns and dilemmas in government and private institutions.</li>
-      <li>Laws, rules, regulations, and conscience as sources of ethical guidance.</li>
-      <li>Accountability and ethical governance.</li>
-      <li>Strengthening of ethical and moral values in governance.</li>
-      <li>Ethical issues in international relations and funding.</li>
-      <li>Corporate governance.</li>
-    </ul>
-  </li>
+                                  <li>Public/Civil Service Values and Ethics in Public Administration:
+                                    <ul className="UPSE_List">
+                                      <li>Status and problems.</li>
+                                      <li>Ethical concerns and dilemmas in government and private institutions.</li>
+                                      <li>Laws, rules, regulations, and conscience as sources of ethical guidance.</li>
+                                      <li>Accountability and ethical governance.</li>
+                                      <li>Strengthening of ethical and moral values in governance.</li>
+                                      <li>Ethical issues in international relations and funding.</li>
+                                      <li>Corporate governance.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Probity in Governance:
-    <ul>
-      <li>Concept of public service.</li>
-      <li>Philosophical basis of governance and probity.</li>
-      <li>Information sharing and transparency in government.</li>
-      <li>Right to Information, Codes of Ethics, Codes of Conduct.</li>
-      <li>Citizen’s Charters, Work culture, Quality of service delivery.</li>
-      <li>Utilization of public funds, challenges of corruption.</li>
-    </ul>
-  </li>
+                                  <li>Probity in Governance:
+                                    <ul className="UPSE_List">
+                                      <li>Concept of public service.</li>
+                                      <li>Philosophical basis of governance and probity.</li>
+                                      <li>Information sharing and transparency in government.</li>
+                                      <li>Right to Information, Codes of Ethics, Codes of Conduct.</li>
+                                      <li>Citizen’s Charters, Work culture, Quality of service delivery.</li>
+                                      <li>Utilization of public funds, challenges of corruption.</li>
+                                    </ul>
+                                  </li>
 
-  <li>Case Studies on the above issues.</li>
-</ul>
+                                  <li>Case Studies on the above issues.</li>
+                                </ul>
+
+                                <h4 className="upse_moreinformationvedio">In this video, you will receive basic information.</h4>
+
+                                <div className="upse_vedioyoutub">
+
+                                <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/G5STfWKbF0E?start=88"
+                                        frameborder="0"
+                                        allowfullscreen
+                                      ></iframe>
+                                </div>
 
                           
 

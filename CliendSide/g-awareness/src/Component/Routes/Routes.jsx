@@ -22,6 +22,10 @@ import CbiInformation from '../CBI/Cbi';
 import Agriculture from '../Agriculture/agriculture';
 import Army from '../Army/Army';
 import CricketGame from '../Cricket/Cricket';
+import QuietIndia from '../QuiteIndia/QuietIndia';
+import Satyagrah from '../Satyagraha/Satyagrah';
+
+import Fighter from '../freedom/ffighters';
 
 
 
@@ -77,6 +81,11 @@ function Routefunction() {
         <Route path="/agri" element={<Agriculture/>} />
         <Route path="/army" element={<Army/>} />
         <Route path="/Cricket" element={<CricketGame/>} />
+        <Route path="/quit" element={<QuietIndia/>} />
+        <Route path="/satya" element={<Satyagrah/>} />
+        <Route path="/fighet" element={<Fighter/>} />
+
+
 
 
 
@@ -89,6 +98,7 @@ function Routefunction() {
    
       </Routes>
       {/* <AboutPage/> */}
+      {/* <Fighter/> */}
       
       <Footer />
 

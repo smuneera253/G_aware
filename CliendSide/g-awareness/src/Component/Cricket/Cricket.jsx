@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 import './Cricket.css';
 
 function CricketGame(){
-    const videoId = 'sx01uJWKnz4';
+    // const videoId = 'sx01uJWKnz4';
+    const [videoVisibleCricket, setVideoVisibleCricket] = useState(false);
 
-//   const opts = {
-//     height: '315',
-//     width: '560',
-//     playerVars: {
-//       // https://developers.google.com/youtube/player_parameters
-//       autoplay: 0,
-//     },
-//   };
+    const handleClickCricket = () => {
+        setVideoVisibleCricket(!videoVisibleCricket);
+    };
+  
+    const youtubeVideoIdCricket = 'sx01uJWKnz4'; // Replace with your actual YouTube video ID
+  
     return(
         <div>
             <div>
@@ -83,14 +82,33 @@ function CricketGame(){
                                         <li>The ball ought to be between five and six ounces, and the 2 sets of stumps 22 yards apart.</li>
                                     </ul>
                                     <h4 className="Cricket_paragraph">Watching the video will provide you with more information, helping you better understand the topic.</h4>
-                                    <iframe className="Cricket_youtub"
+                                     {/* <iframe className="Cricket_youtub"
                                             width="760"
                                             height="355"
                                             src={`https://www.youtube.com/embed/${videoId}`}
                                             title="YouTube Video"
                                             frameBorder="0"
                                             allowFullScreen
-                                        ></iframe>
+                                        ></iframe>  */}
+
+
+                                         
+ <button className="clickCirclecricket" onClick={handleClickCricket}>
+        {videoVisibleCricket ? 'Hide Video' : 'Show Video'}
+      </button>
+
+      {videoVisibleCricket && (
+        <div className="vedio_BoxCricket">
+          <iframe  className="vedioyouTube1Cricket"
+            width="560"
+            height="315"
+            src={`https://www.youtube.com/embed/${youtubeVideoIdCricket}?t=16s`}
+            title="YouTube Video"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
+      )}
 
                     </div>
 

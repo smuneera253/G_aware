@@ -25,8 +25,8 @@ function Neet(){
                     <table className="Neet_table">
                         <thead>
                             <tr>
-                            <th>Class 11th</th>
-                            <th>Class 12th</th>
+                            <th className="Neet_tableheader">Class 11th</th>
+                            <th className="Neet_tableheader">Class 12th</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -73,13 +73,13 @@ function Neet(){
                         </tbody>
                         </table>
                         <h4 className="Neet_Neet1">NEET Syllabus 2024 Physics</h4>
-                        <p className="Neet_Paragh1">Physics might be tough for many students due to numerical and theoretical questions. The table below lists important topics from the NEET Physics syllabus, making it easier for candidates to review for the exam.</p>
+                        <p  className="Neet_Paragh">Physics might be tough for many students due to numerical and theoretical questions. The table below lists important topics from the NEET Physics syllabus, making it easier for candidates to review for the exam.</p>
 
                             <table className="Neet_tables">
                             <thead>
                                 <tr>
-                                <th>Class 11th</th>
-                                <th>Class 12th</th>
+                                <th className="Neet_tableheader">Class 11th</th>
+                                <th className="Neet_tableheader">Class 12th</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -146,13 +146,13 @@ function Neet(){
                             </tbody>
                             </table>
                             <h4  className="Neet_Neet1">NEET Syllabus 2024 Chemistry</h4>
-                            <p  className="Neet_Paragh1">The NEET 2024 Chemistry syllabus is organized by class to help students grasp important concepts from different classes. This structured approach supports candidates in comprehending and mastering crucial chemistry topics, establishing a strong foundation for success in the NEET exam.</p>
+                            <p  className="Neet_Paragh">The NEET 2024 Chemistry syllabus is organized by class to help students grasp important concepts from different classes. This structured approach supports candidates in comprehending and mastering crucial chemistry topics, establishing a strong foundation for success in the NEET exam.</p>
 
                             <table className="Neet_tables">
                                     <thead>
                                         <tr>
-                                        <th>Class 11th</th>
-                                        <th>Class 12th</th>
+                                        <th className="Neet_tableheader">Class 11th</th>
+                                        <th className="Neet_tableheader">Class 12th</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -242,16 +242,16 @@ function Neet(){
                                         </tr>
                                     </tbody>
                                     </table>
-                                    <h4 className="Neet_Neet1">NEET Syllabus Important Topics To Cover For NEET 2024-25</h4>
-                                    <p  className="Neet_Paragh1">For the NEET 2024 exam, every chapter in Biology, Chemistry, and Physics is important. Based on the NEET 2023 paper, certain introductory chapters are frequently asked and should be considered crucial during preparation.</p>
+                                    <h4 id="Neet_Neet1">NEET Syllabus Important Topics To Cover For NEET 2024-25</h4>
+                                    <p   className="Neet_Paragh">For the NEET 2024 exam, every chapter in Biology, Chemistry, and Physics is important. Based on the NEET 2023 paper, certain introductory chapters are frequently asked and should be considered crucial during preparation.</p>
 
 
                                             <table className="Neet_tables">
                                             <thead>
                                                 <tr>
-                                                <th>Physics</th>
-                                                <th>Chemistry</th>
-                                                <th>Biology</th>
+                                                <th className="Neet_tableheader">Physics</th>
+                                                <th className="Neet_tableheader">Chemistry</th>
+                                                <th className="Neet_tableheader">Biology</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -302,15 +302,15 @@ function Neet(){
                                                 </tr>
                                             </tbody>
                                             </table>
-                                            <p className="Neet_Paragh1">To make studying for NEET 2024 more effective, focus on these specific topics. This list compiles crucial areas that require more attention when taking notes and preparing for the exam, considering that some chapters may be lengthy.</p>
+                                            <p className="Neet_Paragh">To make studying for NEET 2024 more effective, focus on these specific topics. This list compiles crucial areas that require more attention when taking notes and preparing for the exam, considering that some chapters may be lengthy.</p>
 
 
                                             <table className="Neet_tables">
                                               <thead>
                                                 <tr>
-                                                  <th>Chemistry</th>
-                                                  <th>Physics</th>
-                                                  <th>Biology</th>
+                                                  <th className="Neet_tableheader">Chemistry</th>
+                                                  <th className="Neet_tableheader">Physics</th>
+                                                  <th className="Neet_tableheader">Biology</th>
                                                 </tr>
                                               </thead>
                                               <tbody>
@@ -362,6 +362,19 @@ function Neet(){
                                               </tbody>
                                             </table>
 
+                                            <h4 className="Moreinfo_neet">In this video, you will receive basic information.......</h4>
+
+                                            <div className="neet_vedio">
+                                                  <iframe
+                                                    width="560"
+                                                    height="315"
+                                                    src="https://www.youtube.com/embed/2v-GK-xVtVI"
+                                                    title="Embedded YouTube Video"
+                                                    frameBorder="0"
+                                                    allowFullScreen
+                                                  ></iframe>
+                                                </div>
+
 
 
 
@@ -374,10 +387,17 @@ function Neet(){
                     <li>This website presents succinct information on the NEET 2024 Chemistry syllabus.</li>
                     <li>NEET Syllabus Important Topics To Cover For NEET 2024-25</li>
                   </ul>
+                  <div className="neet_iconskip">
+                      <img src="https://webstockreview.net/images/arrow-png-images-3.png" className="neetexam_icon"/>
+                      <a  className="neetskpi_content"href="#Neet_Neet1">Skip to main Content</a>
+
+                  </div>
+
                 </div>
                 
                 
             </div>
+
         </div>
     );
 }

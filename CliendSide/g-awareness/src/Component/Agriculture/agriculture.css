@@ -3,7 +3,7 @@
     height: 500px;
 }
 .agriculture_box{
-    width: 300px;
+    width: 320px;
     height: 400px;
     /* border: 1px solid black; */
     margin-left: 10rem;
@@ -20,6 +20,8 @@
 }
 .Agriculture_info{
     font-family: serif;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .Agriculture_side{
     display: flex;
@@ -72,4 +74,30 @@
 .Agriculture_list{
     margin-left: 14rem;
     line-height: 1.6;
+}
+.agri_Organic{
+    margin-left: 20rem;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+}
+.agri_morevedio{
+    margin-left: 400px;
+    width: 577px;
+    height: 330px;
+    border: 9px solid rgb(62, 2, 83);
+    margin-top: 50px;
+}
+.agri_more{
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.agri_textandimg{
+    display: flex;
+}
+.agri_textarrow{
+    width: 30px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
 }

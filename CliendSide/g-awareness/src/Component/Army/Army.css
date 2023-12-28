@@ -1,12 +1,12 @@
 .Army_img{
     width: 100%;
     height: 700px;
-    border: 1px solid black;
+    border: 1px solid rgb(191, 187, 187);
 }
 .Army_marque{
     height: 40px;
-    background-color: #3F0071;
-    color: white;
+    /* background-color: #3F0071; */
+    color: rgb(29, 27, 27);
     font-family: serif;
 }
 .Army_marquee{
@@ -75,6 +75,7 @@ table {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    color: black;
   }
 
   th {
@@ -91,7 +92,7 @@ table {
     margin-bottom: 5px;
   }
   tr:hover {
-    background-color: #f5f5f5;
+    background-color: #cbc9ceae;
   }
   .youtvedio_army{
     margin-left: 90px;

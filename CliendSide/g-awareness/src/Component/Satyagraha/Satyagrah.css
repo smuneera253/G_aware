@@ -1,0 +1,97 @@
+.Satyagrah_img{
+    width: 100%;
+    height: 650px;
+}
+.Satyagrah_whitebox{
+    width: 25rem;
+    height: 370px;
+    /* border:  1px solid black; */
+    background-color: white;
+    margin-left: 3rem;
+    transform: translateY(-60px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Satyagrah_mainbox{
+    display: flex;
+}
+.Satyagrah_smallbox{
+    width: 80rem;
+    /* height: 800px; */
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.Satyagraha_heading{
+    margin-left: 40px;
+    height: 50px;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.Satyāgraha_paragraph{
+    margin-left: 40px;
+    /* margin-top: 10px; */
+    line-height: 1.6;
+    margin-right: 50px;
+    font-family: serif;
+}
+/* ul {
+    list-style-type: none;
+    padding: 0;
+  } */
+  
+ .Satyāgraha_underlist1 {
+    margin-bottom: 10px;
+    font-family: serif;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  
+  strong {
+    color: #0066cc; /* Blue color for strong elements */
+  }
+  .Satyāgraha_underlist{
+    margin-left: 60px;
+    font-family: serif;
+    margin-right: 50px;
+    font-size: 19px;
+
+  }
+  .tablesatyagrah {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #280267;
+    color: white;
+  }
+  .Satyāgraha_underlist3{
+    margin-left: 70px;
+    font-family: serif;
+    margin-right: 50px;
+    font-size: 16px;
+
+  }
+  .Satyagrah_whiteboxhead{
+    margin-left: 40px;
+    font-family: serif;
+    padding-top: 30px;
+  }
+  .Satyagrah_whiteboxList{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: serif;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  
+  

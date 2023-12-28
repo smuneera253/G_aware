@@ -14,12 +14,13 @@
 }
 .UPSC_MAinImg{
     width: 100%;
+    height: 650px;
 }
 .UPSC_MainBox{
     margin-left: 18.5rem;
     width: 80.5rem;
-    margin-top: 80px;
-    border: 1px solid black;
+    margin-top: 50px;
+    border: 1px solid rgb(145, 145, 145);
     /* text-align: justify; */
     /* background-image: url('http://www.pngmart.com/files/8/Lines-PNG-Background.png');
     background-size: cover; */
@@ -28,15 +29,16 @@
     margin-left: 1rem;
     margin-top: 50px;
     font-family: serif;
-    font-size: 25px;
+    font-size: 18px;
     border-bottom: 1px solid rgb(152, 146, 146);
-    margin-right: 65rem;
+    margin-right: 69rem;
 }
 .UPSC_paraghaph{
     margin-left: 1rem;
     text-align: justify;
     width: 70rem;
     line-height: 1.6;
+    margin-top: 20px;
     font-family: serif;
 
 
@@ -86,7 +88,7 @@
     font-family: serif;
     line-height: 1.6;
 }
-.UPSE_List3{
+#UPSE_List3{
     font-family: serif;
     line-height: 1.9;
     margin-top: 50px;
@@ -94,7 +96,7 @@
     width: 40rem;
 
 }
-.UPSC_MAinBoxHead4{
+#UPSC_MAinBoxHead4{
     margin-left: 1rem;
     margin-top: 50px;
     font-family: serif;
@@ -119,7 +121,7 @@ th, td {
 }
 
 th {
-    background-color: #2a0182;
+    background-color: #3805a5;
     color: white;
     height: 40px;
     text-align: center;
@@ -141,7 +143,7 @@ th {
     margin-left: 35px;
     font-family: serif;
     font-size: 14px;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 .UPSC_MAinBoxHead6{
     margin-left:30px ;
@@ -152,5 +154,72 @@ th {
 }
 .UPSCE_Candidates{
     margin-left: 29px;
-    margin-top: -20px;
+    margin-top: 20px;
+}
+.Upsc_mainWhiteBox{
+    width: 60rem;
+    height: 330px;
+    /* border: 1px solid black; */
+    margin-left: 23rem;
+    transform: translateY(-60px);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Upsc_whiteboxheading1{
+    padding-top: 30px;
+    margin-left: 270px;
+    font-family: serif;
+    font-size: 19px;
+    border-bottom: 1px solid rgb(163, 161, 161);
+    margin-right: 21.5rem;
+}
+.whitebox_upsclist{
+    display: flex;
+}
+.upsc_listboxwhite1{
+    margin-left: 130px;
+    margin-top: 20px;
+    font-family: serif;
+    font-size: 15px;
+
+}
+.upsc_listboxwhite2{
+    margin-left: 160px;
+    margin-top: 20px;
+    font-family: serif;
+    font-size: 15px;
+
+
+}
+.skiMainContent{
+    margin-left: 400px;
+    margin-top: 20px;
+    position:absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    opacity: 0;
+
+}
+.skiMainContent:focus{
+    opacity: 1;
+    transform: translateY(0%);
+
+
+}
+.Upsce_Header{
+    background-color: #250172;
+    color: white;
+}
+.Upsce_Header1{
+    background-color: #250172;
+    color: white;
+}
+.upse_vedioyoutub{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.upse_moreinformationvedio{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: serif;
 }

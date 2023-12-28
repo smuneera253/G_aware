@@ -4,8 +4,8 @@
 }
 .Cbi_marqu{
     height: 40px;
-    background-color: #33014e;
-    color: white;
+    /* background-color: #33014e; */
+    color: rgb(28, 26, 26);
     font-family: serif;
 }
 .Cbi_marquee{
@@ -103,8 +103,9 @@ table {
     /* color: white; */
   }
   
-  th {
+  .CBI_tableheader {
     background-color: #610094;
+    color: white;
   }
   .Cbi_qulificationImg{
     width: 50rem;
@@ -143,4 +144,17 @@ table {
     font-family:serif;
     font-size: 15px;
     word-spacing: 0cap;
+}
+.CBIexam_icon{
+  width: 40px;
+  height: 30px;
+  margin-top: 15px;
 }  
+.CBI_iconskip{
+  display: flex;
+  margin-left: 38px;
+}
+.cbiexamskpi_content{
+  margin-top: 19px;
+  margin-left: 10px;
+}

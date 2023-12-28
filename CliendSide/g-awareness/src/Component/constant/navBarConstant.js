@@ -73,7 +73,7 @@ export const NavItem = [
 
 
 
-export const Languages = ["Urdu", "Telugu", "Hindi", "English"]
+export const Languages = ["English", "Urdu", "Hindi", ""]
 
 export const HeadData = ["Skip main content |", "Dark mode |"]
 

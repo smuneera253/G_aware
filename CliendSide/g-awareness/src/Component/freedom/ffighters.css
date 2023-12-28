@@ -1,0 +1,50 @@
+.Fighter_img{
+    width: 100%;
+    height: 700px;
+    margin-top: 5px;
+}
+.fighter_marquee{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.fighter_whitebox{
+    width: 58rem;
+    height: 250px;
+    /* border: 1px solid rgb(131, 130, 130); */
+    background-color: white;
+    margin-left: 27rem;
+    transform: translateY(-90px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.fighter_MainBox{
+    width: 87rem;
+    /* height: 800px; */
+    border: 1px solid rgb(161, 161, 161);
+    margin-left: 13rem;
+}
+.Fighter_heaing{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 19px;
+    font-family: serif;
+}
+.Fighter_paragraph{
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 60px;
+    font-family: serif;
+    line-height: 1.6;
+}
+.Fighter_heaing1{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-family: serif;
+}
+.Freedom_fighter{
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-family: serif;
+}

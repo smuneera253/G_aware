@@ -17,8 +17,8 @@
   }
   .beid_marque{
     height: 40px;
-    background-color: #3F0071;
-    color: white;
+    /* background-color: #3F0071; */
+    color: rgb(11, 11, 11);
   }
   .beid_marquee{
     padding: 10px;
@@ -36,30 +36,31 @@
     /* display: flex; */
     width: 70rem;
     /* height: 90rem; */
-    /* border: 1px solid black; */
+    border: 1px solid rgb(168, 166, 166);
     margin-left: 50px;
-    transform: translateY(-100px);
+    /* transform: translateY(-100px); */
     font-family: serif;
 
  }
- .beid_paragaph{
+ #beid_paragaph{
     margin-left: 30px;
-    margin-top: 30px;
+    /* margin-top: 80px; */
     text-align: justify;
     margin-right: 50px;
     line-height: 1.9;
+    padding-top: 30px;
 
  }
  
- .beid_Bachelor{
+ #beid_Bachelor{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 80px;
     border-bottom: 1px solid rgb(130, 127, 127);
     margin-right: 38rem;
  }
  .beid_youtub{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 100px;
  }
  .beid_teacher{
     width: 800px;
@@ -101,5 +102,29 @@
     margin-right: 40px;
     line-height: 1.6;
     margin-top: 30px;
+
+  }
+  .beidExam_skip{
+      margin-top: 50px;
+      margin-left: 70px;
+      display: flex;
+  }
+  .beid_icon{
+   width: 30px;
+   height: 40px;
+   /* padding-top: 16px; */
+   /* margin-top: -10px; */
+  }
+  .beidcontent_skip{
+   margin-left: 10px;
+   margin-top: 10px;
+  }
+  .beid_paragaph2{
+   margin-top: 30px;
+   line-height: 1.6;
+   font-family: serif;
+   margin-left: 40px;
+   text-align: justify;
+   margin-right: 50px;
 
   }
